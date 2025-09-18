@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Report Issue</title>
-    <link rel="stylesheet" href="/CSS/home.css" />
+    <link rel="stylesheet" href="/FRONT-END/CSS/home.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -18,18 +18,14 @@
     <header>
       <nav class="navbar">
         <div class="left-side-navbar">
-          <img class="logo" src="/IMAGES/logo-1.jpg" alt="FIXITY" />
+          <img class="logo" src="/FRONT-END/IMAGES/logo-1.jpg" alt="FIXITY" />
           <a href="fixity.html" class="logo-text">Fixity</a>
         </div>
         <ul class="nav-menu">
           <!-- <li>
                 <a href="Dashboard.html" class="nav-link"><i class="fas fa-home"></i> Dashboard</a>
             </li> -->
-          <li>
-            <a href="Quick-report.html" class="nav-link active"
-              ><i class="fas fa-plus-circle"></i>Quick-report</a
-            >
-          </li>
+         
           <li>
             <a href="report-issue.html" class="nav-link active"
               ><i class="fas fa-plus-circle"></i> Report Issue</a
@@ -222,28 +218,6 @@
       </section>
     </main>
     <footer></footer>
-
-    <div id="citizen-login-modal" class="modal">
-      <div class="modal-content">
-        <span class="close-btn" id="close-modal">&times;</span>
-        <h2>Citizen Login</h2>
-        <form id="citizen-login-form">
-          <input
-            type="text"
-            id="citizen-username"
-            placeholder="Username"
-            required
-          />
-          <input
-            type="password"
-            id="citizen-password"
-            placeholder="Password"
-            required
-          />
-          <button type="submit" class="login-btn citizen">Login</button>
-        </form>
-      </div>
-    </div>
-    <script src="/JAVASCRIPT/index.js"></script>
+    <script src="../JAVASCRIPT/index.js"></script>
   </body>
 </html>

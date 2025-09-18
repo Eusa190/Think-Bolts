@@ -1,31 +1,89 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Show modal when Citizen Login is clicked (navbar only)
-  document.querySelectorAll('.login-options .login-btn.citizen').forEach(btn => {
-    btn.addEventListener('click', function(e) {
+  // Show Citizen Login Modal
+  const citizenBtn = document.getElementById('citizen-login-btn');
+  if (citizenBtn) {
+    citizenBtn.addEventListener('click', function(e) {
       e.preventDefault();
-      document.getElementById('citizen-login-modal').classList.add('show');
-      document.body.classList.add('modal-open');
+      const modal = document.getElementById('citizen-login-modal');
+      if (modal) {
+        modal.classList.add('show');
+        document.body.classList.add('modal-open');
+      }
     });
-  });
+  }
 
-  // Close modal
-  var closeBtn = document.getElementById('close-modal');
-  if (closeBtn) {
-    closeBtn.addEventListener('click', function() {
+  // Show Authority Login Modal
+  const authorityBtn = document.getElementById('authority-login-btn');
+  if (authorityBtn) {
+    authorityBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      const modal = document.getElementById('authority-login-modal');
+      if (modal) {
+        modal.classList.add('show');
+        document.body.classList.add('modal-open');
+      }
+    });
+  }
+
+  // Close Citizen Modal
+  const closeCitizenBtn = document.getElementById('close-citizen-modal');
+  if (closeCitizenBtn) {
+    closeCitizenBtn.addEventListener('click', function() {
       document.getElementById('citizen-login-modal').classList.remove('show');
       document.body.classList.remove('modal-open');
     });
   }
 
-  // Login form submit
-  var loginForm = document.getElementById('citizen-login-form');
-  if (loginForm) {
-    loginForm.onsubmit = function(e) {
-      e.preventDefault();
-      localStorage.setItem('citizenLoggedIn', 'true');
-      document.getElementById('citizen-login-modal').classList.remove('show');
+  // Close Authority Modal
+  const closeAuthorityBtn = document.getElementById('close-authority-modal');
+  if (closeAuthorityBtn) {
+    closeAuthorityBtn.addEventListener('click', function() {
+      document.getElementById('authority-login-modal').classList.remove('show');
       document.body.classList.remove('modal-open');
-      window.location.href = 'issues.html'; // Redirect to issues page
+    });
+  }
+
+  // Citizen Login form submit
+  var citizenLoginForm = document.getElementById('citizen-login-form');
+  if (citizenLoginForm) {
+    citizenLoginForm.onsubmit = function(e) {
+      e.preventDefault();
+      
+      const username = document.getElementById('citizen-username').value;
+      const password = document.getElementById('citizen-password').value;
+      
+      // Simple validation
+      if (username && password) {
+        localStorage.setItem('citizenLoggedIn', 'true');
+        localStorage.setItem('citizenUsername', username);
+        document.getElementById('citizen-login-modal').classList.remove('show');
+        document.body.classList.remove('modal-open');
+        window.location.href = 'Citizen.html'; // Redirect to Citizen.html
+      } else {
+        alert('Please fill in all fields');
+      }
+    };
+  }
+
+  // Authority Login form submit
+  var authorityLoginForm = document.getElementById('authority-login-form');
+  if (authorityLoginForm) {
+    authorityLoginForm.onsubmit = function(e) {
+      e.preventDefault();
+      
+      const username = document.getElementById('authority-username').value;
+      const password = document.getElementById('authority-password').value;
+      
+      // Simple validation
+      if (username && password) {
+        localStorage.setItem('authorityLoggedIn', 'true');
+        localStorage.setItem('authorityUsername', username);
+        document.getElementById('authority-login-modal').classList.remove('show');
+        document.body.classList.remove('modal-open');
+        window.location.href = 'login-authority.html'; // Redirect to login-authority.html
+      } else {
+        alert('Please fill in all fields');
+      }
     };
   }
 

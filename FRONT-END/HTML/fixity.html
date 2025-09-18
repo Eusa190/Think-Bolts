@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FIXITY</title>
-    <link rel="stylesheet" href="/CSS/home.css" />
-    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/home.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -16,7 +16,7 @@
       <nav class="navbar">
         <div class="left-side-navbar">
           <a href="fixity.html" class="logo-link">
-            <img class="logo" src="/IMAGES/logo-1.jpg" alt="FIXITY" />
+            <img class="logo" src="../IMAGES/logo-1.jpg" alt="FIXITY" />
           </a>
           <a href="fixity.html" class="logo-text">Fixity</a>
         </div>
@@ -44,10 +44,10 @@
         </ul>
         <!-- <div class="navbar-separator"></div> -->
         <div class="login-options">
-          <a href="login-authority.html" class="login-btn authority"
+          <a href="#" class="login-btn authority" id="authority-login-btn"
             ><i class="fas fa-user-shield"></i> Authority Login</a
           >
-          <a href="#" class="login-btn citizen"
+          <a href="#" class="login-btn citizen" id="citizen-login-btn"
             ><i class="fas fa-user"></i> Citizen Login</a
           >
         </div>
@@ -83,7 +83,7 @@
         </div>
         <div class="intro-visual">
           <img
-            src="/IMAGES/City illustrate.svg"
+            src="../IMAGES/City illustrate.svg"
             alt="City Illustration"
             class="hero-img"
           />
@@ -275,9 +275,10 @@
     </main>
     <footer></footer>
 
+    <!-- Citizen Login Modal -->
     <div id="citizen-login-modal" class="modal">
       <div class="modal-content">
-        <span class="close-btn" id="close-modal">&times;</span>
+        <span class="close-btn" id="close-citizen-modal">&times;</span>
         <h2><i class="fas fa-user"></i> Citizen Login</h2>
         <form id="citizen-login-form">
           <div class="form-row">
@@ -298,21 +299,54 @@
               required
             />
           </div>
-          <div class="form-row form-options">
-            <label class="remember-me">
-              <input type="checkbox" id="remember-me" />
-              <span><i class="fas fa-check-square"></i> Remember Me</span>
-            </label>
-            <a href="register.html" class="register-link">
-              <i class="fas fa-user-plus"></i> Register
-            </a>
-          </div>
           <button type="submit" class="login-btn citizen">
             <i class="fas fa-sign-in-alt"></i> Login
           </button>
+          <div class="form-options">
+            <a href="register.html" class="register-link">
+              <i class="fas fa-user-plus"></i> Don't have an account? Register
+            </a>
+          </div>
         </form>
       </div>
     </div>
-    <script src="/JAVASCRIPT/index.js"></script>
+
+    <!-- Authority Login Modal -->
+    <div id="authority-login-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="close-authority-modal">&times;</span>
+        <h2><i class="fas fa-user-shield"></i> Authority Login</h2>
+        <form id="authority-login-form">
+          <div class="form-row">
+            <label for="authority-username"><i class="fas fa-user"></i> Username</label>
+            <input
+              type="text"
+              id="authority-username"
+              placeholder="Enter your username"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="authority-password"><i class="fas fa-lock"></i> Password</label>
+            <input
+              type="password"
+              id="authority-password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <button type="submit" class="login-btn authority">
+            <i class="fas fa-sign-in-alt"></i> Login
+          </button>
+          <div class="form-options">
+            <a href="register.html" class="register-link">
+              <i class="fas fa-user-plus"></i> Don't have an account? Register
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="../JAVASCRIPT/index.js"></script>
   </body>
 </html>
