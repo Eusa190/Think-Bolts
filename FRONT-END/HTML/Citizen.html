@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report Issue</title>
+    <link rel="stylesheet" href="/CSS/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="left-side-navbar">
+          <img class="logo" src="/IMAGES/logo-1.jpg" alt="FIXITY" />
+          <a href="fixity.html" class="logo-text">Fixity</a>
+        </div>
+        <ul class="nav-menu">
+          <!-- <li>
+                <a href="Dashboard.html" class="nav-link"><i class="fas fa-home"></i> Dashboard</a>
+            </li> -->
+          <li>
+            <a href="Quick-report.html" class="nav-link active"
+              ><i class="fas fa-plus-circle"></i>Quick-report</a
+            >
+          </li>
+          <li>
+            <a href="report-issue.html" class="nav-link active"
+              ><i class="fas fa-plus-circle"></i> Report Issue</a
+            >
+          </li>
+          <li>
+            <a href="map-view.html" class="nav-link"
+              ><i class="fas fa-map-marker-alt"></i> Map view</a
+            >
+          </li>
+          <li>
+            <a href="issues.html" class="nav-link"
+              ><i class="fas fa-exclamation-circle"></i> Issues</a
+            >
+          </li>
+          <!-- <li>
+            <a href="anonymous.html" class="nav-link"
+              ><i class="fas fa-mask"></i>Anonymous-Report</a
+            >
+          </li> -->
+        </ul>
+        <!-- <div class="login-options">
+          <a href="login-authority.html" class="login-btn authority"
+            ><i class="fas fa-user-shield"></i> Authority Login</a
+          >
+          <a href="login-citizen.html" class="login-btn citizen"
+            ><i class="fas fa-user"></i> Citizen Login</a
+          >
+        </div> -->
+      </nav>
+    </header>
+    <main>
+      <section class="issue-details-form-section">
+        <h2><i class="fas fa-edit"></i> Report a Civic Issue</h2>
+        <form class="issue-details-form">
+          <div class="form-row">
+            <label for="issue-title"
+              ><i class="fas fa-heading"></i> Issue Title</label
+            >
+            <input
+              type="text"
+              id="issue-title"
+              name="issue-title"
+              placeholder="E.g. Garbage not collected"
+              required
+            />
+            <small class="helper-text"
+              >Give a short, clear title for the issue.</small
+            >
+          </div>
+
+          <div class="form-row">
+            <label for="issue-description"
+              ><i class="fas fa-align-left"></i> Description</label
+            >
+            <textarea
+              id="issue-description"
+              name="issue-description"
+              rows="3"
+              placeholder="Describe the issue in detail..."
+              required
+            ></textarea>
+            <small class="helper-text"
+              >Add details, location hints, or urgency.</small
+            >
+          </div>
+
+          <div class="form-row">
+            <label for="issue-category"
+              ><i class="fas fa-list-ul"></i> Category</label
+            >
+            <select id="issue-category" name="issue-category" required>
+              <option value="">Select category</option>
+              <optgroup label="Sanitation & Waste Management">
+                <option>Garbage Dump / Illegal Dumping</option>
+                <option>Overflowing Bins</option>
+                <option>Missed Garbage Collection</option>
+                <option>Street Sweeping Not Done</option>
+                <option>Debris / Construction Waste</option>
+              </optgroup>
+              <optgroup label="Roads & Footpaths">
+                <option>Potholes</option>
+                <option>Streetlight Not Working</option>
+                <option>Damaged Road / Pavement</option>
+                <option>Blocked Road / Footpath</option>
+                <option>Damaged Footpath / Sidewalk</option>
+              </optgroup>
+              <optgroup label="Water & Drainage">
+                <option>Sewer Overflow / Blocked Drain</option>
+                <option>Stagnant Water</option>
+                <option>Open Manhole</option>
+                <option>Water Leakage</option>
+              </optgroup>
+              <optgroup label="Public Safety & Nuisance">
+                <option>Abandoned Vehicles</option>
+                <option>Graffiti</option>
+                <option>Noise Complaints</option>
+                <option>Illegal Parking</option>
+              </optgroup>
+              <optgroup label="Utilities & Public Amenities">
+                <option>Public Toilet Cleaning/Maintenance</option>
+                <option>Damaged Park Equipment</option>
+                <option>Fallen Wires / Damaged Electric Poles</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label
+              ><i class="fas fa-exclamation-triangle"></i> Priority Level</label
+            >
+            <div class="priority-cards">
+              <input
+                type="radio"
+                id="priority-low"
+                name="issue-priority"
+                value="Low"
+                required
+              />
+              <label for="priority-low" class="priority-card low">
+                <i class="fas fa-arrow-down"></i>
+                <span>Low</span>
+              </label>
+              <input
+                type="radio"
+                id="priority-medium"
+                name="issue-priority"
+                value="Medium"
+              />
+              <label for="priority-medium" class="priority-card medium">
+                <i class="fas fa-arrow-right"></i>
+                <span>Medium</span>
+              </label>
+              <input
+                type="radio"
+                id="priority-high"
+                name="issue-priority"
+                value="High"
+              />
+              <label for="priority-high" class="priority-card high">
+                <i class="fas fa-arrow-up"></i>
+                <span>High</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="issue-zone"
+              ><i class="fas fa-map-marker-alt"></i> Zone / Area</label
+            >
+            <div class="zone-input-wrap">
+              <input
+                type="text"
+                id="issue-zone"
+                name="issue-zone"
+                placeholder="E.g. Sector 12, Main Road"
+                required
+              />
+              <button type="button" class="location-btn" id="get-location">
+                <i class="fas fa-location-arrow"></i> Use Current Location
+              </button>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="issue-media"
+              ><i class="fas fa-camera"></i> Upload Photo/Video</label
+            >
+            <div class="custom-upload">
+              <input
+                type="file"
+                id="issue-media"
+                name="issue-media"
+                accept="image/*,video/*"
+              />
+              <span class="upload-btn"
+                ><i class="fas fa-upload"></i> Choose file</span
+              >
+              <span class="upload-filename" id="upload-filename"></span>
+            </div>
+            <small class="helper-text"
+              >Optional: Add a photo or video for clarity.</small
+            >
+          </div>
+
+          <button type="submit" class="submit-issue-btn">
+            <i class="fas fa-paper-plane"></i> Submit Issue Report
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+
+    <div id="citizen-login-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="close-modal">&times;</span>
+        <h2>Citizen Login</h2>
+        <form id="citizen-login-form">
+          <input
+            type="text"
+            id="citizen-username"
+            placeholder="Username"
+            required
+          />
+          <input
+            type="password"
+            id="citizen-password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit" class="login-btn citizen">Login</button>
+        </form>
+      </div>
+    </div>
+    <script src="/JAVASCRIPT/index.js"></script>
+  </body>
+</html>

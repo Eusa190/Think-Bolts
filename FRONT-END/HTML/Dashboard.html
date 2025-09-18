@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixity-home</title>
+     <link rel="stylesheet" href="/CSS/home.css">
+     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="left-side-navbar">
+            <img class="logo" src="/IMAGES/logo-1.jpg" alt="FIXITY">
+            <a href="fixity.html" class="logo-text">Fixity</a>           
+          </div>
+          <ul class="nav-menu">
+            <!-- <li>
+                <a href="Dashboard.html" class="nav-link active"><i class="fas fa-home"></i> Dashboard</a>
+            </li> -->
+            <li>
+                <a href="report-issue.html" class="nav-link"><i class="fas fa-plus-circle"></i> Report Issue</a>
+            </li>
+            <li>
+                <a href="map-view.html" class="nav-link"><i class="fas fa-map-marker-alt"></i> Map view</a>
+            </li>
+            <li>
+                <a href="issues.html" class="nav-link"><i class="fas fa-exclamation-circle"></i> Issues</a>
+            </li>
+             <li>
+            <a href="anonymous.html" class="nav-link"
+              ><i class="fas fa-mask"></i>Anonymous-Report</a>
+          </li>
+          </ul>
+          <div class="login-options">
+  <a href="login-authority.html" class="login-btn authority"><i class="fas fa-user-shield"></i> Authority Login</a>
+  <a href="login-citizen.html" class="login-btn citizen"><i class="fas fa-user"></i> Citizen Login</a>
+</div>
+        </nav>
+    </header>
+   <main>
+    <h2>Coming Soon....</h2>
+   </main>
+<div id="citizen-login-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="close-modal">&times;</span>
+    <h2>Citizen Login</h2>
+    <form id="citizen-login-form">
+      <input type="text" id="citizen-username" placeholder="Username" required>
+      <input type="password" id="citizen-password" placeholder="Password" required>
+      <button type="submit" class="login-btn citizen">Login</button>
+    </form>
+  </div>
+</div>
+
+    <script src="/JAVASCRIPT/index.js"></script>
+</body>
+</html>

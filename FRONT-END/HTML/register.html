@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citizen Registration - Fixity</title>
+    <link rel="stylesheet" href="/CSS/home.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <div class="left-side-navbar">
+          <a href="fixity.html" class="logo-link">
+            <img class="logo" src="/IMAGES/logo-1.jpg" alt="FIXITY" />
+          </a>
+          <a href="fixity.html" class="logo-text">Fixity</a>
+        </div>
+        <ul class="nav-menu">
+          <li>
+            <a href="report-issue.html" class="nav-link"
+              ><i class="fas fa-plus-circle"></i> Report Issue</a
+            >
+          </li>
+          <li>
+            <a href="map-view.html" class="nav-link"
+              ><i class="fas fa-map-marker-alt"></i> Map View</a
+            >
+          </li>
+          <li>
+            <a href="issues.html" class="nav-link"
+              ><i class="fas fa-exclamation-circle"></i> Issues</a
+            >
+          </li>
+        </ul>
+        <div class="login-options">
+          <a href="login-authority.html" class="login-btn authority"
+            ><i class="fas fa-user-shield"></i> Authority Login</a
+          >
+          <a href="fixity.html" class="login-btn citizen"
+            ><i class="fas fa-user"></i> Citizen Login</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="registration-form-section">
+        <div class="registration-header">
+          <h1><i class="fas fa-user-plus"></i> Join Fixity Community</h1>
+          <p class="registration-subtitle">
+            Create your citizen account to start reporting issues and making your city better!
+          </p>
+        </div>
+
+        <form class="registration-form" id="citizen-registration-form">
+          <div class="form-section">
+            <h3><i class="fas fa-user"></i> Personal Information</h3>
+            
+            <div class="form-row">
+              <label for="first-name"><i class="fas fa-user"></i> First Name</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Enter your first name"
+                required
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="last-name"><i class="fas fa-user"></i> Last Name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Enter your last name"
+                required
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                required
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="date-of-birth"><i class="fas fa-calendar"></i> Date of Birth</label>
+              <input
+                type="date"
+                id="date-of-birth"
+                name="date-of-birth"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h3><i class="fas fa-map-marker-alt"></i> Location Information</h3>
+            
+            <div class="form-row">
+              <label for="address"><i class="fas fa-home"></i> Address</label>
+              <textarea
+                id="address"
+                name="address"
+                rows="3"
+                placeholder="Enter your full address"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-row">
+              <label for="city"><i class="fas fa-city"></i> City</label>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Enter your city"
+                required
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="pincode"><i class="fas fa-map-pin"></i> PIN Code</label>
+              <input
+                type="text"
+                id="pincode"
+                name="pincode"
+                placeholder="Enter your PIN code"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h3><i class="fas fa-lock"></i> Account Security</h3>
+            
+            <div class="form-row">
+              <label for="username"><i class="fas fa-user-circle"></i> Username</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Choose a unique username"
+                required
+              />
+              <small class="helper-text">This will be your login username</small>
+            </div>
+
+            <div class="form-row">
+              <label for="password"><i class="fas fa-lock"></i> Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Create a strong password"
+                required
+              />
+              <small class="helper-text">Must be at least 8 characters long</small>
+            </div>
+
+            <div class="form-row">
+              <label for="confirm-password"><i class="fas fa-lock"></i> Confirm Password</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                placeholder="Confirm your password"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h3><i class="fas fa-cog"></i> Preferences</h3>
+            
+            <div class="form-row">
+              <label for="notification-preferences">
+                <i class="fas fa-bell"></i> Notification Preferences
+              </label>
+              <div class="checkbox-group">
+                <label class="checkbox-item">
+                  <input type="checkbox" name="email-notifications" checked />
+                  <span><i class="fas fa-envelope"></i> Email Notifications</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" name="sms-notifications" />
+                  <span><i class="fas fa-sms"></i> SMS Notifications</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" name="issue-updates" checked />
+                  <span><i class="fas fa-exclamation-circle"></i> Issue Status Updates</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label for="interests">
+                <i class="fas fa-heart"></i> Areas of Interest (Optional)
+              </label>
+              <div class="checkbox-group">
+                <label class="checkbox-item">
+                  <input type="checkbox" name="interests" value="sanitation" />
+                  <span><i class="fas fa-trash"></i> Sanitation & Waste Management</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" name="interests" value="roads" />
+                  <span><i class="fas fa-road"></i> Roads & Infrastructure</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" name="interests" value="safety" />
+                  <span><i class="fas fa-shield-alt"></i> Public Safety</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" name="interests" value="utilities" />
+                  <span><i class="fas fa-tools"></i> Utilities & Amenities</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="form-row">
+              <label class="terms-checkbox">
+                <input type="checkbox" id="terms-agreement" required />
+                <span>
+                  <i class="fas fa-check-square"></i> I agree to the 
+                  <a href="#" class="terms-link">Terms of Service</a> and 
+                  <a href="#" class="terms-link">Privacy Policy</a>
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="register-btn">
+              <i class="fas fa-user-plus"></i> Create Account
+            </button>
+            <p class="login-link">
+              Already have an account? 
+              <a href="fixity.html" class="login-redirect">Login here</a>
+            </p>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Fixity. Empowering citizens to build better cities.</p>
+      </div>
+    </footer>
+
+    <script src="/JAVASCRIPT/register.js"></script>
+</body>
+</html>
