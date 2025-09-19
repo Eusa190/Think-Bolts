@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixity-home</title>
-     <link rel="stylesheet" href="/CSS/home.css">
-     <link rel="stylesheet" href="/CSS/style.css">
+    <title>Citizen Dashboard - Fixity</title>
+     <link rel="stylesheet" href="../CSS/home.css">
+     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
 </head>
 <body>
     <header>
         <nav class="navbar">
           <div class="left-side-navbar">
-            <img class="logo" src="/IMAGES/logo-1.jpg" alt="FIXITY">
+            <img class="logo" src="../IMAGES/logo-1.jpg" alt="FIXITY">
             <a href="fixity.html" class="logo-text">Fixity</a>           
           </div>
           <ul class="nav-menu">
-            <!-- <li>
+            <li>
                 <a href="Dashboard.html" class="nav-link active"><i class="fas fa-home"></i> Dashboard</a>
-            </li> -->
+            </li>
             <li>
                 <a href="report-issue.html" class="nav-link"><i class="fas fa-plus-circle"></i> Report Issue</a>
             </li>
@@ -27,7 +26,7 @@
                 <a href="map-view.html" class="nav-link"><i class="fas fa-map-marker-alt"></i> Map view</a>
             </li>
             <li>
-                <a href="issues.html" class="nav-link"><i class="fas fa-exclamation-circle"></i> Issues</a>
+                <a href="Community-Feed.html" class="nav-link"><i class="fas fa-users"></i>Community Feed</a>
             </li>
              <li>
             <a href="anonymous.html" class="nav-link"
@@ -41,8 +40,72 @@
         </nav>
     </header>
    <main>
-    <h2>Coming Soon....</h2>
+        <section class="dashboard-hero">
+            <div class="welcome-message">
+                <h1 id="welcome-title">Welcome, Citizen!</h1>
+                <p>
+                    Your community impact is visible here. Report a new issue or check
+                    the status of your past reports below.
+                </p>
+                <div class="dashboard-actions">
+                    <a href="report-issue.html" class="intro-btn"
+                        ><i class="fas fa-plus-circle"></i> Report a New Issue</a
+                    >
+                    <a href="Community-Feed.html" class="intro-btn alt"
+                        ><i class="fas fa-users"></i> View Community Feed</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-stats">
+            <h2>Your Activity</h2>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-icon resolved">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number" id="resolved-count">0</span>
+                        <span class="stat-label">Issues Resolved</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon pending">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number" id="pending-count">0</span>
+                        <span class="stat-label">Issues Pending</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon total">
+                        <i class="fas fa-list-alt"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number" id="total-issues">0</span>
+                        <span class="stat-label">Total Reports</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="user-issues-section">
+            <div class="section-header">
+                <h2><i class="fas fa-list-ul"></i> My Recent Issues</h2>
+                <a href="issues.html" class="view-all-link">View All</a>
+            </div>
+            <ul class="issues-list" id="my-issues-list">
+                </ul>
+            <p id="no-issues-message" style="text-align: center; color: #888; font-style: italic;">You haven't reported any issues yet.</p>
+        </section>
    </main>
+   <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Fixity. Empowering citizens to build better cities.</p>
+      </div>
+    </footer>
 <div id="citizen-login-modal" class="modal">
   <div class="modal-content">
     <span class="close-btn" id="close-modal">&times;</span>
@@ -55,6 +118,52 @@
   </div>
 </div>
 
-    <script src="/JAVASCRIPT/index.js"></script>
+    <script src="../JAVASCRIPT/index.js"></script>
+    <script>
+      // Placeholder data for demonstration
+      const myIssues = [
+        { title: "Pothole on Main Street", status: "Resolved" },
+        { title: "Garbage not collected", status: "Pending" },
+        { title: "Damaged Road Sign", status: "In Progress" },
+        { title: "Streetlight not working", status: "Pending" },
+      ];
+
+      function renderDashboard() {
+        const username = localStorage.getItem("citizenUsername");
+        if (username) {
+          document.getElementById(
+            "welcome-title"
+          ).textContent = `Welcome, ${username}!`;
+        }
+
+        const issuesList = document.getElementById("my-issues-list");
+        const noIssuesMessage = document.getElementById("no-issues-message");
+        const resolvedCount = document.getElementById("resolved-count");
+        const pendingCount = document.getElementById("pending-count");
+        const totalIssues = document.getElementById("total-issues");
+
+        if (myIssues.length > 0) {
+          noIssuesMessage.style.display = "none";
+          myIssues.forEach((issue) => {
+            const statusClass = issue.status.replace(/\s+/g, '-').toLowerCase();
+            const listItem = document.createElement("li");
+            listItem.innerHTML = `
+              <span class="issue-title"><i class="fas fa-exclamation-circle"></i> ${issue.title}</span>
+              <span class="issue-status ${statusClass}">${issue.status}</span>
+            `;
+            issuesList.appendChild(listItem);
+          });
+        }
+
+        const resolved = myIssues.filter(i => i.status === "Resolved").length;
+        const pending = myIssues.filter(i => i.status === "Pending" || i.status === "In Progress").length;
+
+        resolvedCount.textContent = resolved;
+        pendingCount.textContent = pending;
+        totalIssues.textContent = myIssues.length;
+      }
+
+      window.addEventListener("load", renderDashboard);
+    </script>
 </body>
 </html>

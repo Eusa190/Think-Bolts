@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('citizenUsername', username);
         document.getElementById('citizen-login-modal').classList.remove('show');
         document.body.classList.remove('modal-open');
-        window.location.href = 'Citizen.html'; // Redirect to Citizen.html
+        window.location.href = 'Dashboard.html'; // Corrected redirect
       } else {
         alert('Please fill in all fields');
       }
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('authorityUsername', username);
         document.getElementById('authority-login-modal').classList.remove('show');
         document.body.classList.remove('modal-open');
-        window.location.href = 'login-authority.html'; // Redirect to login-authority.html
+        window.location.href = 'Dashboard.html'; // Redirect to login-authority.html
       } else {
         alert('Please fill in all fields');
       }
@@ -99,13 +99,71 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('citizen-logout').onclick = function(e) {
         e.preventDefault();
         localStorage.removeItem('citizenLoggedIn');
-        window.location.reload();
+        window.location.href = 'fixity.html'; // Redirect to fixity.html on logout
       };
     }
   }
   updateCitizenStatus();
 
+  // Issue report form submission
+  const issueReportForm = document.getElementById('issue-report-form');
   const fileInput = document.getElementById('issue-media');
+  if (issueReportForm) {
+    issueReportForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const title = document.getElementById('issue-title').value;
+      const description = document.getElementById('issue-description').value;
+      const location = document.getElementById('issue-zone').value;
+      
+      const file = fileInput.files[0];
+      const reader = new FileReader();
+
+      reader.onload = function(event) {
+        const imageDataUrl = event.target.result;
+
+        const newIssue = {
+          id: Date.now(),
+          title: title,
+          description: description,
+          location: location,
+          timestamp: new Date().toLocaleString(),
+          status: "Pending",
+          upvotes: 0,
+          image: imageDataUrl
+        };
+        
+        let issues = JSON.parse(localStorage.getItem('issues')) || [];
+        issues.push(newIssue);
+        localStorage.setItem('issues', JSON.stringify(issues));
+        
+        window.location.href = 'Community-Feed.html';
+      };
+
+      if (file) {
+        reader.readAsDataURL(file);
+      } else {
+        // Fallback for no file uploaded
+        const newIssue = {
+          id: Date.now(),
+          title: title,
+          description: description,
+          location: location,
+          timestamp: new Date().toLocaleString(),
+          status: "Pending",
+          upvotes: 0,
+          image: "https://via.placeholder.com/400x250.png?text=No+Image+Provided"
+        };
+        
+        let issues = JSON.parse(localStorage.getItem('issues')) || [];
+        issues.push(newIssue);
+        localStorage.setItem('issues', JSON.stringify(issues));
+        
+        window.location.href = 'Community-Feed.html';
+      }
+    });
+  }
+
   const fileNameSpan = document.getElementById('upload-filename');
   const uploadBtn = document.querySelector('.upload-btn');
   if (fileInput && fileNameSpan && uploadBtn) {

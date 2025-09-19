@@ -3,25 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Report Issue</title>
-    <link rel="stylesheet" href="/FRONT-END/CSS/home.css" />
-    <link rel="stylesheet" href="/CSS/style.css" />
+    <title>Map View - Fixity</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="../CSS/home.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <style>
+      /* CSS to ensure the map container has a height and fills the screen */
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .full-screen-main {
+        padding: 0 !important;
+        max-width: none !important;
+        height: calc(100vh - 84px);
+        margin: 0 !important;
+        position: relative;
+        overflow: hidden;
+        box-shadow: none;
+        background: #fff;
+      }
+      #map-container {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="left-side-navbar">
-          <img class="logo" src="/FRONT-END/IMAGES/logo-1.jpg" alt="FIXITY" />
+          <img class="logo" src="../IMAGES/logo-1.jpg" alt="FIXITY" />
           <a href="fixity.html" class="logo-text">Fixity</a>
         </div>
         <ul class="nav-menu">
-          <!-- <li>
-                <a href="Dashboard.html" class="nav-link"><i class="fas fa-home"></i> Dashboard</a>
-            </li> -->
+          <li>
+            <a href="Dashboard.html" class="nav-link"
+              ><i class="fas fa-home"></i> Dashboard</a
+            >
+          </li>
           <li>
             <a href="report-issue.html" class="nav-link"
               ><i class="fas fa-plus-circle"></i> Report Issue</a
@@ -33,52 +59,56 @@
             >
           </li>
           <li>
-            <a href="issues.html" class="nav-link"
-              ><i class="fas fa-exclamation-circle"></i> Issues</a
+            <a href="Community-Feed.html" class="nav-link"
+              ><i class="fas fa-users"></i> Community Feed</a
             >
           </li>
-          <!-- <li>
+          <li>
             <a href="anonymous.html" class="nav-link"
               ><i class="fas fa-mask"></i>Anonymous-Report</a
             >
-          </li> -->
+          </li>
         </ul>
-        <!-- <div class="login-options">
+        <div class="login-options">
           <a href="login-authority.html" class="login-btn authority"
             ><i class="fas fa-user-shield"></i> Authority Login</a
           >
           <a href="login-citizen.html" class="login-btn citizen"
             ><i class="fas fa-user"></i> Citizen Login</a
           >
-        </div> -->
+        </div>
       </nav>
     </header>
-    <main>
-      <h1>Reporting Issue</h1>
-    </main>
-    <footer></footer>
-
-    <div id="citizen-login-modal" class="modal">
-      <div class="modal-content">
-        <span class="close-btn" id="close-modal">&times;</span>
-        <h2>Citizen Login</h2>
-        <form id="citizen-login-form">
-          <input
-            type="text"
-            id="citizen-username"
-            placeholder="Username"
-            required
-          />
-          <input
-            type="password"
-            id="citizen-password"
-            placeholder="Password"
-            required
-          />
-          <button type="submit" class="login-btn citizen">Login</button>
-        </form>
+    <main class="full-screen-main">
+      <div id="map-container"></div>
+      <!-- <div class="map-info-box">
+        <i class="fas fa-info-circle info-icon"></i>
+        <div class="info-content">
+          <h2>Live Civic Issues Map</h2>
+          <p>Click on a marker or cluster to see issue details.</p>
+        </div> -->
       </div>
-    </div>
-    <script src="/JAVASCRIPT/index.js"></script>
+      <div class="map-controls">
+        <div class="map-legend">
+          <span class="legend-item"><i class="fas fa-circle pending-dot"></i> Pending</span>
+          <span class="legend-item"><i class="fas fa-circle in-progress-dot"></i> In Progress</span>
+          <span class="legend-item"><i class="fas fa-circle resolved-dot"></i> Resolved</span>
+        </div>
+        <div class="map-filter">
+          <button class="filter-btn active" id="filter-all">All</button>
+          <button class="filter-btn" id="filter-pending">Pending</button>
+          <button class="filter-btn" id="filter-in-progress">In Progress</button>
+          <button class="filter-btn" id="filter-resolved">Resolved</button>
+          <button class="show-location-btn" id="show-my-district-btn">
+             <i class="fas fa-location-arrow"></i> Civic Issues Near Me
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script src="../JAVASCRIPT/map-view.js"></script>
+    <script src="../JAVASCRIPT/index.js"></script>
   </body>
 </html>
