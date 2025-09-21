@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixity - Authority Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/home.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+          <a class="navbar-brand" href="fixity.html">
+            <img class="logo" src="../IMAGES/logo-1.jpg" alt="FIXITY" />
+            <span class="logo-text">Fixity</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a href="auth-dashboard.html" class="nav-link active"><i class="fas fa-chart-line"></i> Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a href="auth-map-view.html" class="nav-link"><i class="fas fa-map-marker-alt"></i> Map View</a>
+              </li>
+              <li class="nav-item">
+                <a href="auth-reports.html" class="nav-link"><i class="fas fa-file-alt"></i> Reports</a>
+              </li>
+              <li class="nav-item">
+                <a href="auth-analytics.html" class="nav-link"><i class="fas fa-chart-pie"></i> Analytics</a>
+              </li>
+            </ul>
+            <div class="login-options ms-lg-3">
+              <span class="auth-status"><i class="fas fa-user-shield"></i> Authority Logged In</span>
+              <a href="#" class="nav-link" id="auth-logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="dashboard-main">
+      <section class="auth-hero">
+        <h1>Authority Dashboard</h1>
+        <p>Monitor, manage, and resolve civic issues effectively.</p>
+      </section>
+
+      <section class="dashboard-stats">
+        <div class="stats-container">
+          <div class="stat-card animated">
+            <div class="stat-icon total-issues"><i class="fas fa-list-alt"></i></div>
+            <div class="stat-info">
+              <span class="stat-number" id="total-issues-count">0</span>
+              <span class="stat-label">Total Issues</span>
+            </div>
+          </div>
+          <div class="stat-card animated">
+            <div class="stat-icon pending"><i class="fas fa-clock"></i></div>
+            <div class="stat-info">
+              <span class="stat-number" id="pending-issues-count">0</span>
+              <span class="stat-label">Pending Issues</span>
+            </div>
+          </div>
+          <div class="stat-card animated">
+            <div class="stat-icon in-progress"><i class="fas fa-spinner"></i></div>
+            <div class="stat-info">
+              <span class="stat-number" id="in-progress-issues-count">0</span>
+              <span class="stat-label">In Progress Issues</span>
+            </div>
+          </div>
+          <div class="stat-card animated">
+            <div class="stat-icon resolved"><i class="fas fa-check-circle"></i></div>
+            <div class="stat-info">
+              <span class="stat-number" id="resolved-issues-count">0</span>
+              <span class="stat-label">Resolved Issues</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dashboard-filters">
+        <div class="filter-group">
+          <label for="location-filter"
+            ><i class="fas fa-map-marker-alt"></i> Filter by Ward:</label
+          >
+          <select id="location-filter">
+            <option value="all">All</option>
+            <option value="Ward 1">Ward 1</option>
+            <option value="Ward 2">Ward 2</option>
+            <option value="Ward 3">Ward 3</option>
+            <option value="Ward 4">Ward 4</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="category-filter"
+            ><i class="fas fa-list"></i> Filter by Category:</label
+          >
+          <select id="category-filter">
+            <option value="all">All</option>
+            <option value="Sanitation">Sanitation</option>
+            <option value="Roads">Roads</option>
+            <option value="Water & Drainage">Water & Drainage</option>
+            <option value="Public Safety">Public Safety</option>
+            <option value="Utilities">Utilities</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="dashboard-table">
+        <h2><i class="fas fa-list-ul"></i> Recent Complaints</h2>
+        <div class="table-container">
+          <table class="complaints-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Location</th>
+                <th>Date/Time</th>
+                <th>Status</th>
+                <th>Votes</th>
+              </tr>
+            </thead>
+            <tbody id="complaints-table-body">
+              <!-- Rows will be inserted by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination-container" id="pagination-container">
+          <!-- Pagination buttons will be inserted here by JavaScript -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Fixity. Empowering citizens to build better cities.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JAVASCRIPT/auth-dashboard.js"></script>
+  </body>
+</html>

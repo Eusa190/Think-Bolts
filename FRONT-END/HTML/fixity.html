@@ -3,58 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FIXITY</title>
+    <title>Fixity - Your City, Your Voice</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../CSS/home.css" />
-    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/success-slider.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="landing-page">
     <header>
-      <nav class="navbar">
-        <div class="left-side-navbar">
-          <a href="fixity.html" class="logo-link">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+        <div class="container">
+          <a class="navbar-brand" href="#">
             <img class="logo" src="../IMAGES/logo-1.jpg" alt="FIXITY" />
+            <span class="logo-text">Fixity</span>
           </a>
-          <a href="fixity.html" class="logo-text">Fixity</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#how-it-works">How It Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#roadmap">Roadmap</a>
+              </li>
+            </ul>
+            <div class="login-options ms-lg-3">
+              <a href="#" class="login-btn authority" id="authority-login-btn"><i class="fas fa-user-shield"></i> Authority Login</a>
+              <a href="#" class="login-btn citizen" id="citizen-login-btn"><i class="fas fa-user"></i> Citizen Login</a>
+            </div>
+          </div>
         </div>
-        <!-- <ul class="nav-menu">
-         
-          <li>
-            <a href="anonymous.html" class="nav-link"
-              ><i class="fas fa-mask"></i> Anonymous-Report</a
-            >
-          </li>
-        </ul> -->
-        <div class="navbar-separator"></div>
-        <div class="login-options">
-          <a href="#" class="login-btn authority" id="authority-login-btn"
-            ><i class="fas fa-user-shield"></i> Authority Login</a
-          >
-          <a href="#" class="login-btn citizen" id="citizen-login-btn"
-            ><i class="fas fa-user"></i> Citizen Login</a
-          >
-        </div>
-        <!-- If anonymous mode, show this instead -->
-        <!-- <div class="navbar-anonymous"><i class="fas fa-user-secret"></i> Anonymous Report</div> -->
       </nav>
     </header>
-    <main>
-      <!-- Place this at the top of your <main> section -->
-      <section class="intro-hero">
-        <div class="intro-content">
+    <main class="container-fluid p-0">
+      <!-- Hero Section -->
+      <section class="intro-hero" id="home">
+        <div class="intro-content" data-aos="fade-right" data-aos-duration="1000">
           <h1 class="intro-title">
             <span class="wave-emoji">👋</span> Welcome to
             <span class="brand-highlight">Fixity</span>
           </h1>
-          <p class="intro-subtitle">
-            <span class="fade-in"
-              >Empowering citizens to create cleaner, safer, and smarter cities.<br />
-              Report issues, track progress, and make your voice heard!</span
-            >
-          </p>
+          <p class="intro-subtitle">Empowering citizens to create cleaner, safer, and smarter cities.<br />Report issues, track progress, and make your voice heard!</p>
           <div class="intro-actions">
             <a href="report-issue.html" class="intro-btn"
               ><i class="fas fa-plus-circle"></i> Report an Issue</a
@@ -62,204 +69,301 @@
             <a href="map-view.html" class="intro-btn alt"
               ><i class="fas fa-map-marker-alt"></i> View Map</a
             >
-              <a href="Community-Feed.html" class="intro-btn alt"
-          ><i class="fas fa-users"></i> View Community Feed</a
-        >
+            <a href="Community-Feed.html" class="intro-btn alt"
+              ><i class="fas fa-users"></i> View Community Feed</a
+            >
           </div>
         </div>
-        <div class="intro-visual">
-          <img
-            src="../IMAGES/City illustrate.svg"
-            alt="City Illustration"
-            class="hero-img"
-          />
-          <!-- Place this inside .intro-visual, before or after your <img> -->
-          <!-- <div class="cta-badge">Smart City, Smart Citizens</div> -->
-          <!-- Place this inside .intro-visual, after your <img> -->
-          <!-- <div class="decorative-dots">
-            <span></span><span></span><span></span>
-          </div> -->
+        <div class="intro-visual" data-aos="fade-left" data-aos-duration="1000">
+          <img src="../IMAGES/City illustrate.svg" alt="City Illustration" class="hero-img" />
         </div>
       </section>
-     
-      </div>
-      <section class="stats">
-        <div>
-          <i class="fas fa-check-circle"></i>
-          <span class="stat-number">120+</span>
-          <span class="stat-label">Issues Resolved</span>
-        </div>
-        <div>
-          <i class="fas fa-users"></i>
-          <span class="stat-number">300+</span>
-          <span class="stat-label">Active Citizens</span>
-        </div>
-        <div>
-          <i class="fas fa-user-shield"></i>
-          <span class="stat-number">15</span>
-          <span class="stat-label">Authorities</span>
-        </div>
-      </section>
-      <section class="features">
-        <h2 class="features-title">
-          <i class="fas fa-lightbulb"></i> Why Use <span class="brand-highlight">Fixity</span>?
-        </h2>
-        <ul class="features-list">
-          <li>
-            <div class="feature-icon-wrap"><i class="fas fa-bolt"></i></div>
-            <div>
-              <span class="feature-title">Fast Issue Reporting</span>
-              <span class="feature-desc">Report problems in seconds with photos, location, and details.</span>
-            </div>
-          </li>
-          <li>
-            <div class="feature-icon-wrap"><i class="fas fa-map"></i></div>
-            <div>
-              <span class="feature-title">Interactive Map View</span>
-              <span class="feature-desc">See all reported issues on a live city map for transparency.</span>
-            </div>
-          </li>
-          <li>
-            <div class="feature-icon-wrap"><i class="fas fa-comments"></i></div>
-            <div>
-              <span class="feature-title">Community Feedback</span>
-              <span class="feature-desc">Discuss, upvote, and follow issues that matter to you.</span>
-            </div>
-          </li>
-<li>
-  <div class="feature-icon-wrap"><i class="fas fa-shield-alt"></i></div>
-  <div>
-    <span class="feature-title">Direct Authority Response</span>
-    <span class="feature-desc">Authorities get instant notifications and update status in real time.</span>
-  </div>
-</li>
-<li>
-  <div class="feature-icon-wrap"><i class="fas fa-trophy"></i></div>
-  <div>
-    <span class="feature-title">Gamification & Rewards 🏆</span>
-    <span class="feature-desc">Citizens earn points and badges for reporting valid issues and helping improve their community.</span>
-  </div>
-</li>
-<li>
-  <div class="feature-icon-wrap"><i class="fas fa-user-secret"></i></div>
-  <div>
-    <span class="feature-title">Anonymous Reporting 🕵️</span>
-    <span class="feature-desc">Citizens can report issues without revealing their identity, ensuring privacy and encouraging more participation.</span>
-  </div>
-</li>
 
-
-        </ul>
-      </section>
-      <section class="features-tray">
-        <h2 class="features-tray-title">Platform Highlights</h2>
-        <div class="features-tray-list">
-          <div class="feature-tray-item">
-            <i class="fas fa-users feature-icon"></i>
-            <div>
-              <h3>Crowdsourced Issue Reporting</h3>
-              <p>
-                Citizens can report civic problems (garbage, potholes,
-                streetlights, water leaks) with photo, description & location.
-              </p>
+      <!-- Stats Section -->
+      <section class="stats-section text-center py-5" id="stats">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+              <div class="stat-item">
+                <i class="fas fa-check-circle"></i>
+                <h3 class="stat-number" data-target="120">0</h3>
+                <p class="stat-label">Issues Resolved</p>
+              </div>
             </div>
-          </div>
-          <div class="feature-tray-item">
-            <i class="fas fa-robot feature-icon"></i>
-            <div>
-              <h3>
-                AI-Powered Classification
-                <span style="font-size: 1.1em">🤖</span>
-              </h3>
-              <p>
-                Automatically detects the type of issue from the photo/text
-                (e.g., pothole, garbage).
-              </p>
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <h3 class="stat-number" data-target="300">0</h3>
+                <p class="stat-label">Active Citizens</p>
+              </div>
             </div>
-          </div>
-          <div class="feature-tray-item">
-            <i class="fas fa-sync-alt feature-icon"></i>
-            <div>
-              <h3>
-                Real-Time Tracking & Updates
-                <span style="font-size: 1.1em">⏱️</span>
-              </h3>
-              <p>
-                Citizens can track complaint status: Pending → In Progress →
-                Resolved.
-              </p>
-            </div>
-          </div>
-          <div class="feature-tray-item">
-            <i class="fas fa-building feature-icon"></i>
-            <div>
-              <h3>
-                Interactive Authority Dashboard
-                <span style="font-size: 1.1em">🏢</span>
-              </h3>
-              <p>
-                Municipal officers see all issues on a map + table, filter by
-                category, and update status.
-              </p>
-            </div>
-          </div>
-          <div class="feature-tray-item">
-            <i class="fas fa-chart-area feature-icon"></i>
-            <div>
-              <h3>
-                Heatmaps & Analytics <span style="font-size: 1.1em">📊</span>
-              </h3>
-              <p>
-                Hotspot maps and graphs show recurring problem areas & trends.
-              </p>
-            </div>
-          </div>
-          <div class="feature-tray-item">
-            <i class="fas fa-microphone feature-icon"></i>
-            <div>
-              <h3>
-                Voice & Multilingual Support
-                <span style="font-size: 1.1em">🎙️</span>
-              </h3>
-              <p>
-                Citizens can report issues using speech (via Whisper) or in
-                local languages.
-              </p>
+            <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="200">
+              <div class="stat-item">
+                <i class="fas fa-user-shield"></i>
+                <h3 class="stat-number" data-target="15">0</h3>
+                <p class="stat-label">Authorities Onboard</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="issues-section">
-        <h2><i class="fas fa-exclamation-circle"></i> Recent Issues</h2>
-        <ul class="issues-list">
-          <li>
-            <span class="issue-title"
-              ><i class="fas fa-trash"></i> Garbage not collected</span
-            >
-            <span class="issue-status pending">Pending</span>
-          </li>
-          <li>
-            <span class="issue-title"
-              ><i class="fas fa-road"></i> Pothole on Main Street</span
-            >
-            <span class="issue-status progress">In Progress</span>
-          </li>
-          <li>
-            <span class="issue-title"
-              ><i class="fas fa-lightbulb"></i> Broken streetlight</span
-            >
-            <span class="issue-status resolved">Resolved</span>
-          </li>
-        </ul>
-        <a
-          href="issues.html"
-          class="main-btn issues-btn"
-          style="margin-top: 1rem"
-          ><i class="fas fa-list"></i> See All Issues</a
-        >
+
+      <!-- Features Section -->
+      <section class="features-section py-5" id="features">
+        <div class="container">
+          <h2 class="section-title text-center" data-aos="fade-up">Why Use <span class="brand-highlight">Fixity</span>?</h2>
+          <div class="row g-4 mt-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+              <div class="feature-card">
+                <div class="feature-icon-wrap"><i class="fas fa-bolt"></i></div>
+                <div class="feature-content">
+                  <h4 class="feature-title">Fast Issue Reporting</h4>
+                  <p class="feature-desc">Report problems in seconds with photos, location, and details.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="feature-card">
+                <div class="feature-icon-wrap"><i class="fas fa-map"></i></div>
+                <div class="feature-content">
+                  <h4 class="feature-title">Interactive Map View</h4>
+                  <p class="feature-desc">See all reported issues on a live city map for transparency.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="feature-card">
+                <div class="feature-icon-wrap"><i class="fas fa-comments"></i></div>
+                <div class="feature-content">
+                  <h4 class="feature-title">Community Feedback</h4>
+                  <p class="feature-desc">Discuss, upvote, and follow issues that matter to you.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+              <div class="feature-card">
+                <div class="feature-icon-wrap"><i class="fas fa-robot"></i></div>
+                <div class="feature-content">
+                  <h4 class="feature-title">AI Categorization</h4>
+                  <p class="feature-desc">Our AI automatically categorizes and routes your issue to the right department.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-card">
+                  <div class="feature-icon-wrap"><i class="fas fa-user-secret"></i></div>
+                  <div class="feature-content">
+                    <h4 class="feature-title">Anonymous Reporting</h4>
+                    <p class="feature-desc">Report sensitive issues without revealing your identity, ensuring privacy.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-card">
+                  <div class="feature-icon-wrap"><i class="fas fa-sync-alt"></i></div>
+                  <div class="feature-content">
+                    <h4 class="feature-title">Real-Time Tracking</h4>
+                    <p class="feature-desc">Get instant notifications as authorities update the status of your report.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AI Demo Section -->
+      <section class="ai-demo-section py-5">
+        <div class="container">
+          <h2 class="section-title text-center" data-aos="fade-up">See Our AI in Action</h2>
+          <p class="section-subtitle text-center" data-aos-delay="100" data-aos="fade-up">Our platform uses AI to automatically understand and categorize your reports.</p>
+          <div class="ai-console" data-aos="zoom-in-up" data-aos-delay="200">
+            <div class="console-header">
+              <div class="console-dot red"></div>
+              <div class="console-dot yellow"></div>
+              <div class="console-dot green"></div>
+            </div>
+            <div class="console-body">
+              <p class="console-line"><span class="prompt">&gt; </span><span id="typed-text"></span><span class="typing-cursor"></span></p>
+              <div id="ai-steps" class="ai-steps"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works Timeline Section -->
+      <section class="process-section py-5">
+        <div class="container">
+          <h2 class="section-title text-center" data-aos="fade-up">The Fixity Process</h2>
+          <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right">
+              <div class="timeline-icon"><i class="fas fa-camera"></i></div>
+              <div class="timeline-content">
+                <h3>1. Report an Issue</h3>
+                <p>Snap a photo or describe the problem. Our app automatically tags the location.</p>
+              </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+              <div class="timeline-icon"><i class="fas fa-robot"></i></div>
+              <div class="timeline-content">
+                <h3>2. AI Analysis</h3>
+                <p>Our AI categorizes the issue and assigns it to the correct municipal department instantly.</p>
+              </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-right">
+              <div class="timeline-icon"><i class="fas fa-tasks"></i></div>
+              <div class="timeline-content">
+                <h3>3. Authority Action</h3>
+                <p>The assigned authority receives the report and updates its status as they work on it.</p>
+              </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+              <div class="timeline-icon"><i class="fas fa-check-circle"></i></div>
+              <div class="timeline-content">
+                <h3>4. Resolution & Feedback</h3>
+                <p>Once resolved, you get a notification. You can then provide feedback on the resolution.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Citizen vs Authority Section -->
+      <section class="citizen-authority-split py-5" id="how-it-works">
+        <div class="container">
+          <h2 class="section-title text-center" data-aos="fade-up">Two Sides, One Goal</h2>
+          <div class="row mt-5">
+            <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-duration="800">
+              <div class="split-card citizen-card">
+                <div class="icon">👤</div>
+                <h3>For Citizens</h3>
+                <p>The power to improve your community is in your hands.</p>
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-check-circle"></i> Report issues easily</li>
+                  <li><i class="fas fa-check-circle"></i> Track progress in real-time</li>
+                  <li><i class="fas fa-check-circle"></i> Vote on important issues</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4" data-aos="fade-left" data-aos-duration="800">
+              <div class="split-card authority-card">
+                <div class="icon">🏛️</div>
+                <h3>For Authorities</h3>
+                <p>A modern toolkit to manage and resolve civic issues efficiently.</p>
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-check-circle"></i> Centralized dashboard</li>
+                  <li><i class="fas fa-check-circle"></i> Interactive map and analytics</li>
+                  <li><i class="fas fa-check-circle"></i> Direct communication channel</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Success Stories Section -->
+      <section class="success-stories py-5">
+        <div class="container">
+          <h2 class="section-title text-center" data-aos="fade-up">From Report to Resolution</h2>
+          <p class="section-subtitle text-center" data-aos-delay="100" data-aos="fade-up">See the real-world impact of community action.</p>
+          <div class="before-after-slider" data-aos="zoom-in-up" data-aos-delay="200">
+            <div class="image-container">
+              <img src="../IMAGES/Gemini_Generated_Image_axnummaxnummaxnu.png" alt="Littered Park Before" class="before-image">
+              <div class="after-image-wrapper">
+                <img src="../IMAGES/Gemini_Generated_Image_cl6aa7cl6aa7cl6a.png" alt="Clean Park After" class="after-image">
+              </div>
+            </div>
+            <div class="slider-handle">
+              <div class="handle-icon"><i class="fas fa-arrows-alt-h"></i></div>
+            </div>
+            <div class="label-before">BEFORE</div>
+            <div class="label-after">AFTER</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Future Features Section -->
+      <section class="future-features py-5" id="roadmap">
+        <div class="container">
+          <h2 class="section-title text-center" data-aos="fade-up">Coming Soon 🚀</h2>
+          <div class="row g-4 mt-5">
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="future-card">
+                <div class="icon">📱</div>
+                <h4>Mobile App</h4>
+                <p>Report and track issues on the go with our native iOS and Android apps.</p>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="future-card">
+                <div class="icon">🤖</div>
+                <h4>WhatsApp Bot</h4>
+                <p>Submit issues and get updates directly through a simple WhatsApp chat interface.</p>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+              <div class="future-card">
+                <div class="icon">🏆</div>
+                <h4>Reward System</h4>
+                <p>Earn points and badges for being an active citizen and helping your community.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recent Issues Preview -->
+      <section class="issues-section-preview py-5" id="recent-issues">
+        <div class="container">
+          <h2 class="section-title text-center" data-aos="fade-up">Recent Community Reports</h2>
+          <div class="issues-list-preview">
+            <div class="issue-item" data-aos="fade-up">
+              <span class="issue-title"><i class="fas fa-trash"></i> Garbage not collected</span>
+              <span class="issue-status pending">Pending</span>
+            </div>
+            <div class="issue-item" data-aos="fade-up" data-aos-delay="100">
+              <span class="issue-title"><i class="fas fa-road"></i> Pothole on Main Street</span>
+              <span class="issue-status in-progress">In Progress</span>
+            </div>
+            <div class="issue-item" data-aos="fade-up" data-aos-delay="200">
+              <span class="issue-title"><i class="fas fa-lightbulb"></i> Broken streetlight</span>
+              <span class="issue-status resolved">Resolved</span>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <a href="Community-Feed.html" class="intro-btn"><i class="fas fa-list"></i> See All Issues</a>
+          </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    
+    <footer class="site-footer text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Fixity</h5>
+            <p>
+              A submission for the Smart India Hackathon (SIH). Built with passion to empower citizens and build smarter cities.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Team</h5>
+            <ul class="list-unstyled mb-0">
+              <li><p class="text-white-50">Think-Bolts</p></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+            <div class="social-icons">
+              <a href="#!" class="text-white"><i class="fab fa-github"></i></a>
+              <a href="#!" class="text-white"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2024 Fixity
+      </div>
+    </footer>
 
     <!-- Citizen Login Modal -->
     <div id="citizen-login-modal" class="modal">
@@ -333,6 +437,8 @@
       </div>
     </div>
 
-    <script src="../JAVASCRIPT/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../JAVASCRIPT/index.js"></script>    
   </body>
 </html>

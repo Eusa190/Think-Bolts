@@ -1,5 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
+    AOS.init({
+        duration: 600,
+        once: true,
+    });
+
     const feedContainer = document.getElementById('community-feed-container');
+
+    const dummyUsers = [
+        { name: 'Alex R.', avatar: 'https://i.pravatar.cc/150?img=1' },
+        { name: 'Maria G.', avatar: 'https://i.pravatar.cc/150?img=5' },
+        { name: 'Sam K.', avatar: 'https://i.pravatar.cc/150?img=8' },
+        { name: 'Anonymous', avatar: 'https://i.pravatar.cc/150?u=a042581f4e29026704d' },
+    ];
 
     // Load complaints from localStorage
     function getComplaints() {
@@ -13,11 +25,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Function to render the complaints
-    function renderComplaints() {
+    function renderComplaints(sortBy = 'trending') {
         let complaints = getComplaints();
 
-        // Sort complaints by upvote count in descending order
-        complaints.sort((a, b) => b.upvotes - a.upvotes);
+        // Sorting logic
+        if (sortBy === 'newest') {
+            complaints.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+        } else { // Default to trending (by upvotes)
+            complaints.sort((a, b) => b.upvotes - a.upvotes);
+        }
 
         feedContainer.innerHTML = ''; // Clear previous content
         if (complaints.length === 0) {
@@ -25,27 +41,41 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        complaints.forEach(complaint => {
+        complaints.forEach((complaint, index) => {
             const statusClass = complaint.status.toLowerCase().replace(/\s/g, '-');
+            const user = dummyUsers[index % dummyUsers.length];
             const card = document.createElement('div');
             card.className = 'complaint-card';
+            card.setAttribute('data-aos', 'fade-up');
+            card.setAttribute('data-aos-delay', (index % 2) * 100);
+
             card.innerHTML = `
-                <img src="${complaint.image}" alt="Issue image" class="complaint-image">
+                <div class="card-header">
+                    <img src="${user.avatar}" alt="User Avatar" class="user-avatar">
+                    <div class="user-info">
+                        <span class="user-name">${user.name}</span>
+                        <span class="card-timestamp">${complaint.timestamp}</span>
+                    </div>
+                </div>
+                ${complaint.image ? `<img src="${complaint.image}" alt="Issue image" class="complaint-image">` : ''}
                 <div class="card-content">
-                    <h3 class="complaint-description">${complaint.description}</h3>
+                    <h4 class="complaint-title">${complaint.title}</h4>
+                    <p class="complaint-description">${complaint.description}</p>
                     <div class="card-meta">
                         <span class="location"><i class="fas fa-map-marker-alt"></i> ${complaint.location}</span>
-                        <span class="timestamp"><i class="fas fa-clock"></i> ${complaint.timestamp}</span>
                     </div>
                     <div class="card-footer">
-                        <div class="status-badge ${statusClass}">${complaint.status}</div>
                         <button class="upvote-btn" data-id="${complaint.id}">
                             <i class="fas fa-arrow-up"></i>
-                            <span class="upvote-count">${complaint.upvotes}</span> Upvotes
+                            <span class="upvote-count">${complaint.upvotes}</span>
                         </button>
-                        <button class="delete-btn" data-id="${complaint.id}">
-                            <i class="fas fa-trash"></i> Delete
-                        </button>
+                        <div class="card-actions-right">
+                            <span class="comments-btn"><i class="fas fa-comment"></i> ${Math.floor(Math.random() * 20)}</span>
+                            <button class="delete-btn" data-id="${complaint.id}" title="Delete this post">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <div class="status-badge ${statusClass}">${complaint.status}</div>
+                        </div>
                     </div>
                 </div>
             `;
@@ -65,7 +95,13 @@ document.addEventListener('DOMContentLoaded', function() {
             if (complaint) {
                 complaint.upvotes++;
                 saveComplaints(complaints);
-                renderComplaints();
+
+                const countSpan = upvoteBtn.querySelector('.upvote-count');
+                countSpan.textContent = complaint.upvotes;
+                upvoteBtn.classList.add('upvoted');
+                setTimeout(() => {
+                    upvoteBtn.classList.remove('upvoted');
+                }, 500);
             }
         } else if (deleteBtn) {
             const issueId = parseInt(deleteBtn.dataset.id);
@@ -80,6 +116,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // Add event listeners for filters
+    const filterButtons = document.querySelectorAll('.feed-filter-btn');
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            const sortBy = button.dataset.sort;
+            renderComplaints(sortBy);
+        });
+    });
+
     // Initial render
-    renderComplaints();
+    renderComplaints('trending');
 });

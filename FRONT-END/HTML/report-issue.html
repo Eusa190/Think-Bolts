@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Report Issue</title>
-    <link rel="stylesheet" href="/FRONT-END/CSS/home.css" />
-    <link rel="stylesheet" href="/CSS/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../CSS/home.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -17,49 +18,68 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <div class="left-side-navbar">
-          <img class="logo" src="/FRONT-END/IMAGES/logo-1.jpg" alt="FIXITY" />
-          <a href="fixity.html" class="logo-text">Fixity</a>
-        </div>
-        <ul class="nav-menu">
-            <li>
-                <a href="Dashboard.html" class="nav-link"><i class="fas fa-home"></i> Dashboard</a>
-            </li>
-          <li>
-            <a href="report-issue.html" class="nav-link active"
-              ><i class="fas fa-plus-circle"></i> Report Issue</a
-            >
-          </li>
-          <li>
-            <a href="map-view.html" class="nav-link"
-              ><i class="fas fa-map-marker-alt"></i> Map view</a
-            >
-          </li>
-          <li>
-            <a href="Community-Feed.html" class="nav-link"
-              ><i class="fas fa-home"></i>Community Feed </a
-            >
-          </li>
-            <li>
-              <a href="anonymous.html" class="nav-link"
-                ><i class="fas fa-mask"></i>Anonymous-Report</a
-              >
-          </ul>
-        <div class="login-options">
-          <a href="login-authority.html" class="login-btn authority"
-            ><i class="fas fa-user-shield"></i> Authority Login</a
-          >
-          <a href="login-citizen.html" class="login-btn citizen"
-            ><i class="fas fa-user"></i> Citizen Login</a
-          >
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+          <a class="navbar-brand" href="fixity.html">
+            <img class="logo" src="../IMAGES/logo-1.jpg" alt="FIXITY" />
+            <span class="logo-text">Fixity</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="Dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="report-issue.html"><i class="fas fa-plus-circle"></i> Report Issue</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="map-view.html"><i class="fas fa-map-marker-alt"></i> Map view</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Community-Feed.html"><i class="fas fa-users"></i> Community Feed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="anonymous.html"><i class="fas fa-mask"></i> Anonymous-Report</a>
+              </li>
+            </ul>
+            <div class="login-options ms-lg-3">
+              <a href="#" class="login-btn authority" id="authority-login-btn"><i class="fas fa-user-shield"></i> Authority Login</a>
+              <a href="#" class="login-btn citizen" id="citizen-login-btn"><i class="fas fa-user"></i> Citizen Login</a>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
-    <main>
-      <section class="issue-details-form-section">
-        <h2><i class="fas fa-edit"></i> Report a Civic Issue</h2>
-        <form class="issue-details-form" id="issue-report-form">
+    <main class="container my-5">
+      <div class="row report-page-wrapper" data-aos="fade-up">
+        <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
+          <section class="quick-snap-section">
+            <h2><i class="fas fa-camera-retro"></i> Quick Snap & Go</h2>
+            <p>No time for details? Just upload a photo and our AI will do the rest!</p>
+            <div class="quick-snap-box">
+                <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                <input type="file" id="quick-snap-input" accept="image/*" style="display: none;">
+                <button id="quick-snap-btn" class="intro-btn">
+                    <i class="fas fa-camera"></i> Upload Quick Snap
+                </button>
+                <div id="quick-snap-loader" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Analyzing image... Our AI is on it!</p>
+                </div>
+                <p id="quick-snap-filename" class="upload-filename"></p>
+            </div>
+          </section>
+        </div>
+        <div class="col-lg-1 d-none d-lg-flex align-items-center justify-content-center">
+          <div class="form-separator-vertical"><span>OR</span></div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+          <section class="issue-details-form-section">
+            <h2><i class="fas fa-edit"></i> Fill a Detailed Report</h2>
+            <form class="issue-details-form" id="issue-report-form">
           <div class="form-row">
             <label for="issue-title"
               ><i class="fas fa-heading"></i> Issue Title</label
@@ -201,56 +221,28 @@
                 accept="image/*,video/*"
                 style="display:none;"
               />
-            
-              <span class="upload-btn">
-                <i class="fas fa-upload"></i> Choose file
-              </span>
+              <span class="upload-btn"><i class="fas fa-upload"></i> Choose file</span>
               <span class="upload-filename" id="upload-filename"></span>
-              <button type="button" id="capture-photo-btn">
-                <i class="fas fa-camera"></i> Capture Photo
-              </button>
-              <video id="camera-preview" width="200" autoplay style="display:none;"></video>
-              <canvas id="photo-canvas" style="display:none;"></canvas>
             </div>
             <small class="helper-text">
               Optional: Add a photo or video for clarity.
             </small>
           </div>
 
-          <div class="form-row">
-            <label for="voice-note">
-              <i class="fas fa-microphone"></i> Upload Voice Note
-            </label>
-            <input
-              type="file"
-              id="voice-note"
-              name="voice-note"
-              accept="audio/*"
-            />
-            <small class="helper-text">
-              Optional: Record or upload a voice note.
-            </small>
-          </div>
-          <div class="form-row">
-            <label for="text-note">
-              <i class="fas fa-file-alt"></i> Additional Text Note
-            </label>
-            <textarea
-              id="text-note"
-              name="text-note"
-              rows="2"
-              placeholder="Add any extra notes..."
-            ></textarea>
-          </div>
-
           <button type="submit" class="submit-issue-btn">
             <i class="fas fa-paper-plane"></i> Submit Issue Report
           </button>
-        </form>
-      </section>
+            </form>
+          </section>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-content"><p>&copy; 2024 Fixity. Empowering citizens to build better cities.</p></div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <div id="citizen-login-modal" class="modal">
       <div class="modal-content">
         <span class="close-btn" id="close-modal">&times;</span>
