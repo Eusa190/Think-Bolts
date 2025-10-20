@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Edit Company Profile{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <div class="card">
+            <div class="card-header">
+                <h3>Edit Company Profile</h3>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('company_edit_profile') }}" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Company Description</label>
+                        <textarea class="form-control" id="description" name="description" rows="5">{{ company.description or '' }}</textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="logo" class="form-label">Upload Company Logo</label>
+                        <input class="form-control" type="file" id="logo" name="logo">
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

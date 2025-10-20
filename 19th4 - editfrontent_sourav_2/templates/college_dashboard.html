@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}College Dashboard{% endblock %}
+{% block content %}
+<h2>{{ college_name }} - Student Placement Overview</h2>
+<table class="table table-bordered table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>Student Name</th>
+            <th>Registration No.</th>
+            <th>CGPA</th>
+            <th>Total Applications</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for data in student_data %}
+        <tr>
+            <td>{{ data.info.full_name }}</td>
+            <td>{{ data.info.registration_number }}</td>
+            <td>{{ data.info.cgpa }}</td>
+            <td>{{ data.application_count }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

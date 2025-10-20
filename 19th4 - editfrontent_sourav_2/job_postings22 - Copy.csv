@@ -1,0 +1,1001 @@
+company,role,skills,cgpa_required
+TerraForm Inc.,Data Scientist,"Machine Learning, SQL, JIRA, TensorFlow, Python, Statistics, Agile",8.9
+NextGen AI,Backend Developer,"SQL, REST APIs, NoSQL, Docker, Kubernetes, PostgreSQL, Scrum",8.8
+NextGen AI,Frontend Developer,"CSS, JavaScript, Redux, Scrum, Webpack",8.4
+InnovateTech,UI/UX Designer,"Scrum, Git, Wireframing, Adobe XD, UI/UX Design, Figma, Agile",8.5
+SkyBridge,Data Analyst,"Statistics, Tableau, API Development, JIRA, SQL, Python",7.1
+CyberGuard,UI/UX Designer,"Wireframing, Adobe XD, JIRA, User Research, Scrum, Agile, Git, UI/UX Design",9
+Infinite Loop,DevOps Engineer,"CI/CD, Git, Azure, AWS",8.2
+RedShift,Mobile App Developer,"Scrum, JIRA, Git, React Native, iOS SDK",8.4
+BinaryBridge,Machine Learning Engineer,"Scikit-learn, Keras, JIRA, Pandas, Git, API Development, Agile, TensorFlow",7.6
+FusionWorks,Backend Developer,"Java, GraphQL, Kubernetes, Docker, Go",8.1
+Predictive Analytics,Data Scientist,"Data Visualization, TensorFlow, JIRA, Git, Statistics, Machine Learning, PyTorch, Python",7.1
+AeroVerse,Machine Learning Engineer,"Scrum, Computer Vision, JIRA, Keras, NLP",8.2
+NanoWare,Full-Stack Developer,"GraphQL, CSS, Scrum, API Development, MongoDB, REST APIs, Node.js, SQL",8.5
+FutureProof,Data Scientist,"API Development, Deep Learning, Data Visualization, Git",8.2
+Zenith Tech,UI/UX Designer,"UI/UX Design, Adobe XD, Agile, Figma, Wireframing",7.8
+InnovateTech,Data Scientist,"Statistics, Scrum, JIRA, API Development, R, NumPy",7.2
+Quantum Solutions,Full-Stack Developer,"GraphQL, JavaScript, Node.js, CSS, JIRA, REST APIs",8.9
+HelioDynamics,Backend Developer,"Go, Kubernetes, JIRA, Agile",7.5
+Vertex Dynamics,Data Analyst,"Scrum, Excel, Statistics, Tableau, Python",7.5
+TerraForm Inc.,Backend Developer,"Docker, Scrum, API Development, Ruby",8.6
+CodeCrafters,DevOps Engineer,"Jenkins, CI/CD, Scrum, Docker, Ansible, AWS, Terraform",8.7
+Vertex Dynamics,DevOps Engineer,"JIRA, Agile, Terraform, AWS, Docker, Ansible, Google Cloud Platform",8.9
+TerraForm Inc.,Mobile App Developer,"Flutter, Scrum, Swift, Agile, Git, React Native",7.3
+Orion Enterprises,Machine Learning Engineer,"Git, Python, JIRA, NumPy, Keras, PyTorch",7.1
+NetSphere,Data Scientist,"JIRA, PyTorch, Scrum, SQL",8.7
+Alpha Systems,Mobile App Developer,"API Development, iOS SDK, Scrum, React Native, Swift, Android SDK, Git, Objective-C",8.6
+AeroVerse,Backend Developer,"REST APIs, Docker, Agile, Scrum, Java",7.7
+RedShift,Data Analyst,"Excel, Git, API Development, JIRA, Agile, Statistics",8.2
+PixelPerfect,Data Scientist,"PyTorch, Pandas, API Development, Git, Machine Learning, Agile, SQL, Deep Learning",8.9
+Infinite Loop,Backend Developer,"Java, JIRA, API Development, Go",8.2
+CodeCrafters,Data Scientist,"Pandas, Python, PyTorch, Statistics",8.5
+SkyBridge,Data Analyst,"Data Visualization, Excel, Agile, SQL",7.9
+Synergy Systems,Backend Developer,"Git, Agile, C#, API Development, Scrum, REST APIs",7.5
+Synapse Corp,Frontend Developer,"JIRA, Scrum, Vue.js, Agile",8.2
+Stellar Solutions,Data Analyst,"JIRA, Excel, Statistics, Python, Power BI",8.7
+BioSynth,Cloud Architect,"API Development, Git, Networking, Azure, Security, Agile, Kubernetes, Scrum",7.3
+NeuralNet Systems,Data Scientist,"Pandas, Python, SQL, Machine Learning",7
+NanoWare,Security Analyst,"SIEM, Scrum, JIRA, Ethical Hacking, Cybersecurity, Git",9
+Synergy Systems,Data Analyst,"API Development, Statistics, Scrum, Pandas, Git, JIRA, SQL, Agile",8.1
+Visionary AI,DevOps Engineer,"CI/CD, Terraform, Google Cloud Platform, Jenkins, API Development, Agile, Scrum",8.4
+P pinnacle Corp,Mobile App Developer,"Scrum, Kotlin, Objective-C, Git",7.4
+Infinite Loop,DevOps Engineer,"Git, Azure, AWS, API Development, Terraform, Prometheus, JIRA, Docker",7.7
+Orion Enterprises,Cloud Architect,"API Development, Kubernetes, System Design, Security, Agile",7.1
+BlueShift,Frontend Developer,"Agile, SASS, API Development, Webpack, Vue.js",7.9
+DataSphere,Frontend Developer,"Webpack, JavaScript, Scrum, Redux",7.1
+Keystone Digital,Software Engineer,"System Design, Git, Agile, Docker, JIRA, Java",8.4
+Synapse Corp,Security Analyst,"Penetration Testing, JIRA, API Development, Cryptography, SIEM, Agile",8.4
+Keystone Digital,Backend Developer,"Node.js, NoSQL, PostgreSQL, Java, Ruby, Python, JIRA, Kubernetes",7.3
+DataSphere,Frontend Developer,"Agile, JIRA, Vue.js, React, JavaScript, Redux, Git",7
+Polaris Tech,Data Analyst,"Data Visualization, API Development, Tableau, Pandas, Agile, JIRA, Scrum, Statistics",7.7
+InnovateTech,Full-Stack Developer,"REST APIs, SQL, React, MongoDB, Node.js",8.3
+InfraCloud,Machine Learning Engineer,"Scrum, PyTorch, Keras, API Development, Pandas, NumPy",8.1
+NextGen AI,DevOps Engineer,"Kubernetes, Prometheus, Docker, Scrum, Git, API Development, Terraform, Ansible",8.3
+Cognitive AI,Security Analyst,"Git, SIEM, Penetration Testing, Ethical Hacking",7.4
+ByteForce,Software Engineer,"Docker, Algorithms, Go, Git, JIRA, Java, Scrum, C++",7.3
+NeuralNet Systems,Frontend Developer,"Scrum, Next.js, JavaScript, React, API Development, Git, Angular, HTML",7.1
+Quantum Solutions,Full-Stack Developer,"Git, API Development, REST APIs, React, SQL, Node.js, HTML",9
+QuantumLeap,Data Analyst,"Agile, Tableau, Excel, Statistics, Python, Pandas, Git",7.7
+Stellar Solutions,Frontend Developer,"Angular, SASS, JIRA, CSS, Next.js, React, Redux",7.1
+SkyBridge,Security Analyst,"Penetration Testing, Agile, Network Security, JIRA, SIEM, Cryptography, Git",8.7
+DigitalFrontier,Software Engineer,"Scrum, Algorithms, API Development, Data Structures, Python",8.2
+BioSynth,Backend Developer,"Java, Ruby, GraphQL, PostgreSQL, Docker, MongoDB",8.1
+FutureProof,Backend Developer,"Ruby, NoSQL, PostgreSQL, Agile",8.3
+AquaGen,Full-Stack Developer,"Agile, MongoDB, SQL, Git, REST APIs, JavaScript",7.4
+LogicLoop,Machine Learning Engineer,"Keras, NLP, PyTorch, TensorFlow, Agile, Git",7.3
+SkyBridge,Security Analyst,"Cybersecurity, API Development, JIRA, Network Security, SIEM, Agile, Git, Penetration Testing",7.3
+InfraCloud,Data Scientist,"JIRA, Data Visualization, R, Git, Python, Deep Learning",7.4
+SynthCore,Data Scientist,"API Development, JIRA, Pandas, SQL, Git, TensorFlow",7.1
+EchoSphere,Cloud Architect,"Kubernetes, AWS, Azure, API Development, Security, Git",8.1
+Predictive Analytics,Cloud Architect,"Agile, System Design, API Development, AWS, Git, Networking, Terraform, Scrum",8.3
+LogicLoop,Full-Stack Developer,"API Development, GraphQL, SQL, CSS, Scrum, REST APIs",8
+Polaris Tech,Machine Learning Engineer,"Scikit-learn, Python, Agile, JIRA, Scrum",8.6
+LogicLoop,UI/UX Designer,"Adobe XD, Scrum, API Development, Agile",8.2
+Zenith Tech,Cloud Architect,"JIRA, Scrum, Google Cloud Platform, Git, Terraform",8.3
+CyberGuard,Software Engineer,"Java, Agile, System Design, C++",8.9
+NetSphere,Cloud Architect,"API Development, Security, Azure, JIRA, Kubernetes, Agile, Terraform",8.7
+Synergy Systems,Mobile App Developer,"Swift, Agile, Android SDK, Scrum, iOS SDK, API Development, JIRA, Objective-C",7.2
+Vertex Dynamics,Security Analyst,"Ethical Hacking, Cryptography, Scrum, Git, SIEM",7.8
+CloudNine,Frontend Developer,"JavaScript, Angular, Agile, Vue.js, Next.js, Webpack, SASS",7.3
+SkyBridge,Frontend Developer,"Git, JavaScript, TypeScript, Vue.js, SASS",7.8
+SynthCore,Backend Developer,"SQL, Ruby, Agile, API Development, PostgreSQL, Go, GraphQL",7.2
+Infinite Loop,Software Engineer,"C++, Git, Agile, Go, JIRA, System Design, Docker, Python",8.9
+InfraCloud,Data Scientist,"Pandas, Deep Learning, Machine Learning, Python, Scikit-learn, NumPy, SQL, API Development",8.9
+NanoWare,Full-Stack Developer,"API Development, JavaScript, React, GraphQL, REST APIs, Python, HTML, Agile",7.5
+NetSphere,Data Analyst,"Git, JIRA, Python, API Development, SQL",8
+Apex Innovations,Mobile App Developer,"Scrum, Objective-C, API Development, JIRA, Android SDK, Swift, iOS SDK",7.9
+Vertex Dynamics,Mobile App Developer,"Scrum, Agile, JIRA, Android SDK, API Development, Objective-C, Git, Kotlin",7.5
+Stellar Solutions,Mobile App Developer,"Android SDK, React Native, Kotlin, Objective-C, API Development, Git, iOS SDK",8.7
+Momentum Labs,DevOps Engineer,"Docker, Google Cloud Platform, Git, Terraform, Azure, Scrum",8.3
+Infinite Loop,Cloud Architect,"Scrum, Security, AWS, API Development, Git, Google Cloud Platform, Networking, Kubernetes",8.5
+CodeCrafters,Full-Stack Developer,"SQL, Git, HTML, JavaScript, GraphQL, CSS",8.6
+Momentum Labs,Data Analyst,"API Development, Statistics, JIRA, Pandas, SQL, Agile",8
+NeuralNet Systems,UI/UX Designer,"Wireframing, API Development, Sketch, User Research, Adobe XD, Git",7
+NetSphere,DevOps Engineer,"Google Cloud Platform, Terraform, Docker, Azure, API Development, Agile",7.3
+CodeCrafters,Backend Developer,"Git, JIRA, Docker, API Development, NoSQL, MongoDB, Ruby",7.3
+InnovateTech,Mobile App Developer,"Agile, Kotlin, JIRA, iOS SDK, Scrum",7.2
+FusionWorks,Security Analyst,"Scrum, JIRA, Network Security, API Development, Agile, Cybersecurity",9
+WebWeavers,Full-Stack Developer,"Agile, GraphQL, HTML, Node.js",7.9
+LogicLoop,Machine Learning Engineer,"Pandas, NumPy, Computer Vision, Git, TensorFlow",7.1
+FutureProof,Software Engineer,"System Design, Data Structures, Java, Kubernetes, Python, Agile, JIRA, Go",8.6
+Vertex Dynamics,Machine Learning Engineer,"Python, NLP, Scikit-learn, Keras, API Development, JIRA, Pandas",7.4
+Orion Enterprises,Cloud Architect,"AWS, API Development, Scrum, JIRA, Git, Kubernetes, Terraform",7.7
+Cognitive AI,Full-Stack Developer,"React, Git, Python, REST APIs, HTML, Node.js, JIRA",7.8
+NeuralNet Systems,Software Engineer,"Python, System Design, Scrum, Java, Algorithms",7.4
+Infinite Loop,Frontend Developer,"JavaScript, TypeScript, Angular, Vue.js, JIRA, Webpack, CSS",7
+Alpha Systems,Software Engineer,"Scrum, API Development, System Design, Git, Python, Agile, Data Structures",7.3
+P pinnacle Corp,Security Analyst,"Penetration Testing, Git, Network Security, Agile, Cybersecurity, Ethical Hacking",7.8
+NextGen AI,Cloud Architect,"Security, Agile, Networking, Scrum, JIRA, Git",7.4
+AquaGen,Security Analyst,"Cybersecurity, SIEM, Scrum, Cryptography, Penetration Testing",7.1
+NeuralNet Systems,Data Analyst,"SQL, Power BI, Data Visualization, Tableau, Git, Scrum, API Development, Excel",8.9
+Synergy Systems,DevOps Engineer,"Kubernetes, CI/CD, JIRA, API Development, AWS, Docker, Google Cloud Platform, Terraform",7.4
+TerraForm Inc.,Software Engineer,"Algorithms, Go, Kubernetes, JIRA, Data Structures, API Development, System Design, Python",8.1
+Zenith Tech,Data Analyst,"Python, Power BI, Statistics, Excel",8.3
+AeroVerse,Data Scientist,"Git, API Development, Deep Learning, Data Visualization, Agile, PyTorch",7.5
+CodeCrafters,Security Analyst,"Ethical Hacking, Penetration Testing, Agile, Cybersecurity, Git, JIRA",7.7
+CodeCrafters,Frontend Developer,"API Development, Angular, SASS, Next.js, Redux, JIRA, HTML, Git",7.7
+FutureProof,Machine Learning Engineer,"TensorFlow, API Development, Git, Keras, Agile, JIRA, Pandas, Computer Vision",7.4
+Alpha Systems,Cloud Architect,"Azure, Networking, Terraform, AWS",8.4
+CyberGuard,Machine Learning Engineer,"Git, TensorFlow, Pandas, JIRA, Python, Agile, Scrum, Scikit-learn",7.9
+CyberGuard,DevOps Engineer,"Terraform, Docker, API Development, Google Cloud Platform, Scrum, Git, JIRA, Ansible",8.5
+Omega Solutions,Full-Stack Developer,"CSS, JIRA, GraphQL, Node.js",7.5
+InfraCloud,Full-Stack Developer,"MongoDB, REST APIs, React, Agile, Node.js, JavaScript, GraphQL, Git",8.5
+Apex Innovations,Data Analyst,"Python, Agile, Excel, Scrum, Pandas, Tableau",8.7
+FusionWorks,Backend Developer,"Go, Git, SQL, MongoDB, REST APIs",8.6
+DataSphere,Mobile App Developer,"Swift, Android SDK, API Development, Git, Flutter",7.4
+Zenith Tech,Backend Developer,"Scrum, Docker, API Development, Go, Agile, Node.js",8
+NeuralNet Systems,Backend Developer,"C#, REST APIs, Ruby, Python, GraphQL",8.2
+WebWeavers,Backend Developer,"C#, PostgreSQL, SQL, Agile, Python, NoSQL, API Development, Docker",7.3
+Stellar Solutions,Mobile App Developer,"Scrum, Android SDK, React Native, Objective-C",8.4
+InfraCloud,Data Analyst,"Agile, Data Visualization, Statistics, API Development, SQL, Scrum",8.7
+NanoWare,Mobile App Developer,"Objective-C, Scrum, Agile, iOS SDK, API Development, Kotlin, JIRA",7.8
+RedShift,Security Analyst,"Penetration Testing, Cryptography, Ethical Hacking, JIRA, Agile, Scrum, Network Security, Git",7.6
+BinaryBridge,Backend Developer,"Node.js, Ruby, MongoDB, Kubernetes, Java, Scrum, Git",7.8
+Synapse Corp,Data Scientist,"Statistics, Git, PyTorch, Agile, Data Visualization",7.9
+CodeCrafters,Data Analyst,"Statistics, Python, Excel, Data Visualization, Power BI, Tableau, Git",8.1
+NeuralNet Systems,Backend Developer,"Python, Ruby, Scrum, MongoDB, SQL, GraphQL",7.6
+FutureProof,Security Analyst,"Ethical Hacking, Agile, Network Security, SIEM, Penetration Testing, JIRA, Git",7.2
+QuantumLeap,Machine Learning Engineer,"TensorFlow, NumPy, API Development, Pandas, PyTorch, Agile, JIRA, Keras",7.3
+Predictive Analytics,Software Engineer,"System Design, Git, Data Structures, Python",7.1
+BlueShift,Software Engineer,"Go, JIRA, Agile, Java, C++, System Design, Git, Python",8.5
+ByteForce,Backend Developer,"REST APIs, Kubernetes, NoSQL, Java, Docker, Scrum",8.6
+ByteForce,Frontend Developer,"Scrum, Git, HTML, Agile, TypeScript, Webpack, JavaScript, Angular",8.3
+BioSynth,Data Analyst,"SQL, Scrum, Data Visualization, Power BI, Tableau, Git",8.8
+Synergy Systems,Software Engineer,"Data Structures, JIRA, Docker, Algorithms, Agile",8.1
+Orion Enterprises,Mobile App Developer,"Swift, Kotlin, JIRA, Flutter, Objective-C",7.8
+AquaGen,Security Analyst,"Cryptography, Scrum, API Development, Network Security, SIEM",8.5
+Quantum Solutions,UI/UX Designer,"Scrum, API Development, Figma, Sketch, User Research",7.5
+Apex Innovations,Mobile App Developer,"Git, API Development, JIRA, Kotlin, Agile",7.2
+Vertex Dynamics,Security Analyst,"API Development, Scrum, Network Security, Cybersecurity, Ethical Hacking, Cryptography, SIEM, Penetration Testing",8
+Orion Enterprises,UI/UX Designer,"Agile, UI/UX Design, API Development, Figma, Wireframing, Scrum, Adobe XD",7.5
+Alpha Systems,Security Analyst,"SIEM, Scrum, Cryptography, Network Security, Agile, API Development, Penetration Testing, Git",7.1
+Cognitive AI,Machine Learning Engineer,"API Development, Agile, NumPy, PyTorch, Keras, Python",7.6
+AeroVerse,Machine Learning Engineer,"Keras, JIRA, Scikit-learn, NLP, Computer Vision, PyTorch, Git",8.2
+NeuralNet Systems,Mobile App Developer,"API Development, Agile, Scrum, Kotlin, React Native, iOS SDK",7.5
+PixelPerfect,Frontend Developer,"SASS, TypeScript, Agile, HTML, Vue.js, JIRA, CSS",8.7
+FutureProof,DevOps Engineer,"Docker, Kubernetes, JIRA, Azure, Jenkins, Agile, AWS",8.5
+NanoWare,Machine Learning Engineer,"Scrum, Computer Vision, Pandas, PyTorch, TensorFlow, Keras, Scikit-learn, Agile",8.5
+Apex Innovations,Data Analyst,"Git, Power BI, JIRA, Statistics, Python, Data Visualization, API Development, SQL",7.3
+RedShift,UI/UX Designer,"Wireframing, Figma, User Research, Sketch",7
+CyberGuard,Security Analyst,"Network Security, Cybersecurity, Git, Scrum, API Development, JIRA, SIEM, Agile",7.8
+Synapse Corp,Backend Developer,"C#, REST APIs, NoSQL, API Development, SQL, Python",7
+InnovateTech,Cloud Architect,"System Design, Agile, Terraform, Scrum, Git, Security, Kubernetes, API Development",8.1
+Synapse Corp,Software Engineer,"Git, Python, Scrum, Algorithms, Data Structures",7
+WebWeavers,Backend Developer,"GraphQL, SQL, C#, NoSQL, PostgreSQL, Python",7.9
+NextGen AI,Data Scientist,"API Development, Machine Learning, JIRA, Git, Python",7
+Polaris Tech,Security Analyst,"Git, Penetration Testing, Scrum, Ethical Hacking, Network Security, Agile",8.9
+Visionary AI,Data Analyst,"Statistics, SQL, Data Visualization, Python, Pandas, Scrum, Agile, Git",8.2
+NeuralNet Systems,Data Analyst,"SQL, Data Visualization, API Development, Excel",7.6
+Predictive Analytics,Security Analyst,"Penetration Testing, Cryptography, Network Security, Agile, Scrum, Git, Cybersecurity",7.7
+Synapse Corp,Data Scientist,"TensorFlow, Data Visualization, Scrum, PyTorch, SQL",8.1
+Insight Data,Full-Stack Developer,"JavaScript, Scrum, Git, SQL",8.2
+Infinite Loop,Security Analyst,"Cryptography, Penetration Testing, SIEM, Ethical Hacking, Git, JIRA, Scrum",7
+BioSynth,DevOps Engineer,"Scrum, JIRA, AWS, Terraform",8.2
+Alpha Systems,Full-Stack Developer,"Agile, JIRA, Node.js, JavaScript, API Development, Scrum",8
+Zenith Tech,Full-Stack Developer,"API Development, REST APIs, JavaScript, SQL, React, Node.js",9
+Polaris Tech,Data Analyst,"Scrum, Statistics, Data Visualization, Tableau",8.8
+NextGen AI,Full-Stack Developer,"SQL, JIRA, HTML, Agile, React",7.3
+HelioDynamics,Software Engineer,"Java, Kubernetes, Agile, System Design, Scrum, Data Structures, JIRA, Algorithms",8.1
+NextGen AI,Backend Developer,"MongoDB, Ruby, Scrum, Java",7.8
+InnovateTech,Software Engineer,"Git, Python, Algorithms, Kubernetes, JIRA, Data Structures",7.1
+FusionWorks,Full-Stack Developer,"JavaScript, Python, HTML, Agile, API Development, CSS",7.8
+InnovateTech,Data Analyst,"Statistics, SQL, Excel, Tableau, Pandas",8.6
+HelioDynamics,Full-Stack Developer,"GraphQL, Scrum, JavaScript, CSS, Agile, REST APIs, HTML, Python",7.8
+Cognitive AI,DevOps Engineer,"JIRA, Prometheus, Jenkins, Docker",8.5
+Omega Solutions,Frontend Developer,"SASS, CSS, React, Vue.js, TypeScript, HTML, Scrum",7.7
+DigitalFrontier,Mobile App Developer,"Kotlin, API Development, React Native, Agile, Scrum, JIRA, Android SDK, Swift",7.2
+RedShift,Cloud Architect,"System Design, Scrum, Terraform, AWS",8.5
+Momentum Labs,Machine Learning Engineer,"TensorFlow, Git, JIRA, NLP",7.2
+HelioDynamics,Full-Stack Developer,"React, REST APIs, MongoDB, GraphQL, SQL, Scrum",8.6
+Stellar Solutions,Full-Stack Developer,"Git, Agile, HTML, MongoDB, JavaScript, GraphQL, API Development, React",7.3
+Stellar Solutions,Cloud Architect,"Git, System Design, Terraform, Scrum, Agile, AWS",7.6
+Momentum Labs,Cloud Architect,"Git, API Development, Security, AWS, Terraform, Google Cloud Platform",8.5
+Predictive Analytics,Data Analyst,"SQL, API Development, Statistics, JIRA, Python, Scrum",7.9
+CyberGuard,Mobile App Developer,"JIRA, Git, Swift, Android SDK, API Development, Kotlin, Flutter",7.1
+Omega Solutions,Frontend Developer,"Webpack, HTML, JavaScript, Next.js, Agile, API Development, SASS, JIRA",8.9
+CyberGuard,Data Analyst,"Tableau, Power BI, Python, Scrum, SQL, Excel",7.6
+Synapse Corp,Full-Stack Developer,"REST APIs, API Development, Git, CSS, SQL, JavaScript, Node.js",7.8
+Polaris Tech,Data Analyst,"Agile, Statistics, Git, Scrum, Tableau",7.1
+InfraCloud,DevOps Engineer,"AWS, Docker, Kubernetes, Ansible",8.4
+Apex Innovations,Data Analyst,"Excel, JIRA, Git, API Development, Agile",8
+RedShift,Backend Developer,"Git, Agile, Java, Ruby, Node.js, API Development",7.5
+InfraCloud,UI/UX Designer,"Git, JIRA, UI/UX Design, Adobe XD, Scrum, API Development",7.9
+CodeCrafters,Data Analyst,"Python, SQL, Statistics, Tableau, Data Visualization, Git",7.3
+NovaPulse,Backend Developer,"MongoDB, Java, PostgreSQL, SQL, API Development, NoSQL, REST APIs, GraphQL",8.8
+DataSphere,DevOps Engineer,"Agile, Docker, Git, Azure, Jenkins",7.2
+AquaGen,Cloud Architect,"Security, Google Cloud Platform, JIRA, Azure, API Development",7.1
+AeroVerse,Software Engineer,"System Design, Python, Java, C++, Docker, JIRA, Git",8.1
+Polaris Tech,Frontend Developer,"Vue.js, React, Redux, TypeScript, HTML, Next.js, Webpack",7.3
+Momentum Labs,Mobile App Developer,"Git, iOS SDK, JIRA, Android SDK, Swift, Objective-C, React Native, API Development",7.6
+BioLogics,Mobile App Developer,"Objective-C, API Development, JIRA, React Native, Kotlin, Agile, Swift",7.5
+NovaPulse,Full-Stack Developer,"Git, MongoDB, Node.js, GraphQL, API Development",8.2
+Stellar Solutions,Full-Stack Developer,"Node.js, Python, JIRA, SQL, Scrum",7.3
+Zenith Tech,Security Analyst,"Scrum, Penetration Testing, Ethical Hacking, Network Security",8.8
+Stellar Solutions,Data Analyst,"Excel, JIRA, Data Visualization, API Development, SQL, Tableau, Git, Python",8.5
+QuantumLeap,Software Engineer,"Python, API Development, Java, Kubernetes",8.9
+Polaris Tech,Data Scientist,"Statistics, Machine Learning, NumPy, SQL, Python",7.9
+AquaGen,Cloud Architect,"Git, Azure, Kubernetes, Security, System Design",7.2
+RedShift,Backend Developer,"NoSQL, SQL, C#, PostgreSQL, Node.js, API Development, Python, Docker",7.3
+RedShift,Data Analyst,"Scrum, Power BI, Pandas, JIRA",7.7
+NovaPulse,UI/UX Designer,"UI/UX Design, Wireframing, Adobe XD, API Development",7.9
+ByteForce,UI/UX Designer,"Git, Adobe XD, User Research, Figma, Wireframing, Sketch, UI/UX Design",8.6
+DigitalFrontier,Software Engineer,"C++, Docker, Java, Data Structures, Git, System Design, JIRA, API Development",8.9
+Zenith Tech,Frontend Developer,"API Development, React, JavaScript, SASS",8.6
+NetSphere,Cloud Architect,"API Development, Google Cloud Platform, Terraform, AWS, JIRA, Scrum, Git",7.9
+Quantum Solutions,UI/UX Designer,"Wireframing, Adobe XD, UI/UX Design, API Development, Sketch",8.4
+Vertex Dynamics,Frontend Developer,"SASS, JavaScript, JIRA, Next.js, React",8
+QuantumLeap,Machine Learning Engineer,"Python, JIRA, Agile, TensorFlow, API Development",8.2
+CloudNine,Frontend Developer,"Redux, React, JavaScript, JIRA, CSS",7.8
+Stellar Solutions,Full-Stack Developer,"SQL, HTML, JIRA, JavaScript, API Development, CSS, Agile",7.8
+Keystone Digital,Data Scientist,"Data Visualization, Pandas, NumPy, Scrum",8.5
+AquaGen,Data Analyst,"Scrum, Git, Excel, Tableau, Python, Agile",8.9
+Zenith Tech,Mobile App Developer,"API Development, Agile, Objective-C, Git, Flutter",7.2
+DigitalFrontier,Backend Developer,"Go, Docker, MongoDB, Kubernetes, NoSQL",8.9
+WebWeavers,Mobile App Developer,"Kotlin, Flutter, Objective-C, iOS SDK, Swift, Git, Scrum",7.9
+LogicLoop,Data Scientist,"Agile, Deep Learning, Git, JIRA",8
+Keystone Digital,DevOps Engineer,"Google Cloud Platform, Kubernetes, Azure, Docker, Scrum, Jenkins, JIRA",7.1
+Polaris Tech,Security Analyst,"API Development, Scrum, Git, Cryptography, Ethical Hacking, Agile, Cybersecurity",7.9
+Stellar Solutions,Security Analyst,"JIRA, Penetration Testing, API Development, Scrum, Git",8.7
+AquaGen,DevOps Engineer,"Terraform, Azure, JIRA, CI/CD, AWS",8.8
+Vertex Dynamics,Security Analyst,"Git, API Development, JIRA, Cybersecurity, Scrum",8.4
+CyberGuard,Data Scientist,"JIRA, R, Agile, API Development, Scikit-learn, Statistics, Pandas, TensorFlow",7.8
+NeuralNet Systems,Cloud Architect,"Kubernetes, API Development, JIRA, Terraform",7
+Synapse Corp,DevOps Engineer,"Ansible, Scrum, Kubernetes, Docker, AWS, API Development, Prometheus",8.4
+Alpha Systems,Frontend Developer,"Vue.js, Next.js, SASS, JIRA, Redux, Git, JavaScript, API Development",7
+FusionWorks,Software Engineer,"Python, Docker, Agile, Go, Git",8
+FutureProof,Security Analyst,"Scrum, Agile, Cybersecurity, Penetration Testing, Network Security, JIRA, SIEM, Cryptography",8.9
+Zenith Tech,Data Analyst,"Git, JIRA, Scrum, Data Visualization, Power BI, Tableau, Python, API Development",8.8
+InnovateTech,Cloud Architect,"Google Cloud Platform, JIRA, AWS, Networking, Terraform, System Design",7.8
+RedShift,Security Analyst,"Scrum, Cybersecurity, API Development, Ethical Hacking, Network Security, JIRA, Git, SIEM",8.1
+Predictive Analytics,Cloud Architect,"Security, JIRA, Git, Kubernetes, Networking",8
+Vertex Dynamics,UI/UX Designer,"User Research, UI/UX Design, Agile, JIRA, Scrum, Adobe XD",8.5
+BlueShift,Software Engineer,"Docker, Python, Agile, JIRA",7.9
+CodeCrafters,DevOps Engineer,"Agile, Kubernetes, CI/CD, Scrum, Jenkins, Google Cloud Platform, JIRA",7.9
+InfraCloud,Data Analyst,"Python, JIRA, SQL, Excel",8.8
+NextGen AI,DevOps Engineer,"Terraform, Prometheus, Agile, Jenkins, AWS, Google Cloud Platform",8.1
+Synergy Systems,DevOps Engineer,"Jenkins, Agile, Prometheus, Docker, API Development, Scrum",7.5
+Cognitive AI,Cloud Architect,"Scrum, Networking, AWS, JIRA, Google Cloud Platform, System Design, Git",8.1
+DigitalFrontier,Backend Developer,"MongoDB, Git, Go, PostgreSQL, Ruby, API Development, NoSQL, C#",7.2
+WebWeavers,Full-Stack Developer,"JIRA, HTML, JavaScript, MongoDB",9
+AquaGen,Cloud Architect,"Terraform, Security, Scrum, API Development",8.6
+HelioDynamics,Mobile App Developer,"Flutter, Swift, iOS SDK, Agile, JIRA",7.5
+BioLogics,Security Analyst,"Cryptography, Ethical Hacking, Git, SIEM, API Development, Cybersecurity, Network Security, Scrum",8
+DigitalFrontier,Machine Learning Engineer,"Scrum, NumPy, Agile, Keras, Git, Scikit-learn",7.1
+NovaPulse,Software Engineer,"Go, Algorithms, Kubernetes, Docker, Scrum, Python",8.8
+Infinite Loop,DevOps Engineer,"Terraform, Jenkins, API Development, Scrum, Docker, AWS",7.2
+Insight Data,Software Engineer,"Docker, API Development, System Design, Scrum, Agile, C++",8.9
+NextGen AI,UI/UX Designer,"UI/UX Design, Git, User Research, Agile, Figma, Scrum, Sketch, Wireframing",7.6
+Insight Data,Software Engineer,"JIRA, Go, Java, Docker, Data Structures, System Design, Kubernetes, Agile",7.4
+NovaPulse,Frontend Developer,"HTML, Vue.js, Webpack, React",7.7
+Zenith Tech,Frontend Developer,"Scrum, Agile, JIRA, Vue.js, TypeScript, React, Next.js, SASS",8.5
+Alpha Systems,Mobile App Developer,"Agile, API Development, React Native, Git",8.1
+AeroVerse,DevOps Engineer,"Git, JIRA, CI/CD, Docker, Google Cloud Platform, Terraform",7.6
+Alpha Systems,Security Analyst,"Git, Ethical Hacking, Cybersecurity, JIRA, Cryptography, API Development",7.6
+SkyBridge,Mobile App Developer,"Agile, Swift, React Native, Objective-C",7.4
+Stellar Solutions,UI/UX Designer,"UI/UX Design, Figma, Wireframing, Sketch, Agile, Scrum, API Development",8.1
+TerraForm Inc.,Mobile App Developer,"API Development, JIRA, iOS SDK, Swift, Agile, Flutter, Android SDK, Git",7.4
+Apex Innovations,UI/UX Designer,"Wireframing, Agile, Figma, Adobe XD, API Development",7.5
+HelioDynamics,UI/UX Designer,"UI/UX Design, API Development, Scrum, JIRA, Adobe XD",8.1
+Omega Solutions,Backend Developer,"Python, GraphQL, PostgreSQL, MongoDB, JIRA, SQL",8.8
+QuantumLeap,Data Scientist,"R, Git, Scikit-learn, Pandas, Statistics, Data Visualization",7.7
+Apex Innovations,UI/UX Designer,"Figma, Git, Adobe XD, Sketch, API Development",7.4
+P pinnacle Corp,Security Analyst,"JIRA, SIEM, Cybersecurity, Ethical Hacking, Penetration Testing, Agile, Network Security",7.8
+NeuralNet Systems,Software Engineer,"API Development, Scrum, Algorithms, Git, Data Structures, Agile",8.3
+Quantum Solutions,Data Scientist,"SQL, Pandas, Deep Learning, API Development, TensorFlow",7.4
+BlueShift,Data Scientist,"SQL, Machine Learning, Statistics, API Development, R, Python, Git, JIRA",8.2
+QuantumLeap,DevOps Engineer,"Terraform, Docker, API Development, JIRA, AWS, Azure",7.4
+SynthCore,Data Analyst,"Agile, Pandas, Statistics, Tableau",9
+CyberGuard,Frontend Developer,"React, HTML, Agile, Redux, Next.js, SASS, TypeScript",9
+CyberGuard,Cloud Architect,"Git, API Development, Terraform, Agile, Azure, System Design, JIRA, Networking",7.3
+FusionWorks,Backend Developer,"Python, Go, Java, Docker",8.5
+Zenith Tech,Data Analyst,"Scrum, Power BI, SQL, Data Visualization",8.6
+NextGen AI,UI/UX Designer,"Sketch, JIRA, User Research, Adobe XD, Git",7.7
+ByteForce,Mobile App Developer,"Swift, Objective-C, Kotlin, Agile, Scrum, Flutter, API Development, Git",7.2
+Orion Enterprises,Machine Learning Engineer,"TensorFlow, NLP, Scikit-learn, Python, Keras, Computer Vision, JIRA",7.3
+Omega Solutions,Frontend Developer,"HTML, Git, Agile, Webpack, React, Redux",7.5
+BioSynth,Software Engineer,"API Development, C++, Java, Python, Kubernetes, Algorithms, Docker, System Design",8.8
+Infinite Loop,Backend Developer,"JIRA, Go, Ruby, SQL, Docker, C#, API Development, Python",8.6
+Alpha Systems,Cloud Architect,"Terraform, AWS, Networking, Kubernetes, JIRA",7.4
+BinaryBridge,Backend Developer,"Agile, API Development, Go, PostgreSQL, GraphQL",8.9
+Quantum Solutions,Backend Developer,"Agile, PostgreSQL, Git, Python",7.8
+AquaGen,DevOps Engineer,"Ansible, Git, CI/CD, Agile, JIRA",8.6
+LogicLoop,UI/UX Designer,"Scrum, Sketch, API Development, Figma, Adobe XD",8.8
+CloudNine,Mobile App Developer,"Git, Android SDK, Swift, Agile, Scrum",8.3
+P pinnacle Corp,Software Engineer,"Scrum, Kubernetes, System Design, JIRA, Docker, C++",7.4
+PixelPerfect,Security Analyst,"JIRA, Cybersecurity, Cryptography, Network Security, API Development, Penetration Testing, Scrum, Agile",8.9
+NeuralNet Systems,Frontend Developer,"React, Next.js, JavaScript, TypeScript, Git, Angular, CSS, Scrum",8.2
+LogicLoop,Security Analyst,"SIEM, Penetration Testing, JIRA, Scrum",7.2
+Momentum Labs,Frontend Developer,"SASS, CSS, Agile, JavaScript, Git, React",7.4
+InfraCloud,Backend Developer,"PostgreSQL, API Development, NoSQL, Agile, SQL, Docker, REST APIs, GraphQL",8.3
+Visionary AI,Backend Developer,"Kubernetes, PostgreSQL, Go, API Development, SQL, REST APIs",7.9
+Alpha Systems,Cloud Architect,"Agile, System Design, Terraform, Networking, Security, Kubernetes, AWS",7
+Apex Innovations,Frontend Developer,"SASS, Agile, React, HTML, JIRA, Redux, TypeScript, API Development",7.3
+BioLogics,Backend Developer,"Go, Node.js, Docker, Kubernetes, Git, REST APIs, NoSQL",7.5
+P pinnacle Corp,Security Analyst,"Scrum, Cryptography, Network Security, Cybersecurity, SIEM, JIRA, Agile, Ethical Hacking",7.4
+BioLogics,Security Analyst,"Cryptography, Agile, Ethical Hacking, Network Security, Scrum, JIRA, Cybersecurity, SIEM",8.4
+CloudNine,Data Analyst,"Python, Scrum, Excel, SQL, API Development, JIRA, Data Visualization",8.7
+AquaGen,Cloud Architect,"API Development, Security, JIRA, Azure, Scrum, Networking, System Design, Git",8.7
+SynthCore,Machine Learning Engineer,"Scikit-learn, NumPy, NLP, JIRA",8.9
+InfraCloud,Data Analyst,"Statistics, Git, Python, SQL, Tableau, API Development, Power BI",8.8
+NanoWare,UI/UX Designer,"Scrum, Agile, JIRA, Figma, API Development, User Research, Adobe XD, Git",8.7
+Keystone Digital,Machine Learning Engineer,"Git, Python, NumPy, JIRA, Pandas, PyTorch",8.8
+CodeCrafters,Data Analyst,"Power BI, SQL, Statistics, Scrum, Pandas",8.6
+InfraCloud,Data Scientist,"PyTorch, TensorFlow, Scrum, Pandas, Statistics, JIRA, Deep Learning, Python",8.7
+Infinite Loop,Security Analyst,"Agile, API Development, Network Security, SIEM, JIRA, Cryptography, Ethical Hacking, Penetration Testing",8.6
+TerraForm Inc.,Data Analyst,"Git, Tableau, API Development, Scrum",8
+HelioDynamics,Cloud Architect,"System Design, API Development, Terraform, Scrum",8.5
+FutureProof,Frontend Developer,"Git, React, API Development, SASS",7.6
+CodeCrafters,Security Analyst,"Cryptography, Scrum, Network Security, Cybersecurity, Git, SIEM, API Development, Agile",7.5
+Synapse Corp,Security Analyst,"Agile, Cryptography, API Development, Penetration Testing, SIEM, Network Security",8.1
+AeroVerse,Cloud Architect,"Agile, Networking, API Development, System Design, Security, JIRA, Kubernetes, Terraform",8.1
+Momentum Labs,Backend Developer,"Java, SQL, Ruby, Scrum, C#, Python, Agile, API Development",7.4
+DataSphere,UI/UX Designer,"Wireframing, Agile, Scrum, Adobe XD, Sketch, JIRA, API Development, Figma",8.4
+InfraCloud,Full-Stack Developer,"Scrum, MongoDB, Node.js, Agile, React, Python",7.2
+CodeCrafters,Data Scientist,"Git, Python, Scikit-learn, TensorFlow",7.6
+Quantum Solutions,Mobile App Developer,"Swift, Scrum, React Native, Android SDK, Agile, Git, Flutter, JIRA",8.3
+EchoSphere,Software Engineer,"Kubernetes, Go, Docker, Git, Agile, API Development, Data Structures, C++",7
+ByteForce,Cloud Architect,"AWS, API Development, JIRA, Kubernetes, Git, System Design, Scrum, Google Cloud Platform",8.8
+DigitalFrontier,Backend Developer,"Go, Ruby, API Development, Java, Python, SQL, Docker, Kubernetes",7.5
+Apex Innovations,Data Analyst,"JIRA, Git, Excel, SQL, Agile, Scrum, Power BI",7.2
+Predictive Analytics,UI/UX Designer,"Wireframing, User Research, UI/UX Design, Agile, JIRA, Figma, Scrum",8.6
+EchoSphere,Machine Learning Engineer,"Computer Vision, Python, NumPy, TensorFlow, Agile, Pandas, API Development",8.2
+NeuralNet Systems,Mobile App Developer,"Git, Android SDK, Swift, Scrum, Agile, Flutter, Objective-C, API Development",7.8
+BioLogics,Cloud Architect,"Kubernetes, System Design, Git, Azure, Networking",9
+Alpha Systems,Data Scientist,"Pandas, Machine Learning, NumPy, PyTorch, Scrum",7.1
+Synergy Systems,Backend Developer,"API Development, JIRA, Python, MongoDB",7.4
+AeroVerse,Data Scientist,"Statistics, Data Visualization, R, JIRA, Git",8.9
+FutureProof,Software Engineer,"System Design, API Development, Kubernetes, Java, JIRA",7.8
+QuantumLeap,Mobile App Developer,"Agile, API Development, Swift, Android SDK, React Native, Scrum",7.1
+WebWeavers,Data Scientist,"NumPy, JIRA, Pandas, TensorFlow, Data Visualization",7
+P pinnacle Corp,Data Scientist,"NumPy, Git, Scikit-learn, SQL",8.2
+Vertex Dynamics,Backend Developer,"JIRA, GraphQL, NoSQL, Java, API Development, Node.js, Python",8.7
+Vertex Dynamics,Machine Learning Engineer,"Pandas, PyTorch, Agile, Keras",8.8
+LogicLoop,Cloud Architect,"Git, Google Cloud Platform, Security, Agile, Kubernetes, API Development",7.4
+Quantum Solutions,Machine Learning Engineer,"NLP, NumPy, PyTorch, TensorFlow, Agile, Scrum, JIRA",7.2
+SkyBridge,Machine Learning Engineer,"Computer Vision, Git, PyTorch, Keras, Pandas",8
+NovaPulse,Backend Developer,"Git, Agile, REST APIs, Kubernetes, PostgreSQL",7.1
+Apex Innovations,UI/UX Designer,"Wireframing, Git, UI/UX Design, Agile",7.1
+Omega Solutions,Software Engineer,"JIRA, Data Structures, Java, Git, Go, Kubernetes, Agile",8.8
+DigitalFrontier,UI/UX Designer,"Figma, Adobe XD, Sketch, User Research, Git, API Development, Scrum",8.1
+Polaris Tech,UI/UX Designer,"API Development, Git, Wireframing, UI/UX Design, User Research, Scrum, Sketch, Adobe XD",7.1
+Synapse Corp,Full-Stack Developer,"SQL, JavaScript, REST APIs, Python, Agile, MongoDB",7.8
+NetSphere,Security Analyst,"Network Security, SIEM, Ethical Hacking, Penetration Testing, Git, Scrum, Cryptography, Cybersecurity",8.3
+SkyBridge,Data Scientist,"Statistics, SQL, Scrum, Machine Learning, JIRA, Python",8.2
+FutureProof,DevOps Engineer,"Scrum, CI/CD, Google Cloud Platform, JIRA, Ansible",8.3
+RedShift,Full-Stack Developer,"JavaScript, JIRA, React, API Development, Git",7.7
+InnovateTech,UI/UX Designer,"Scrum, API Development, JIRA, Figma",8.7
+NeuralNet Systems,Cloud Architect,"JIRA, API Development, Security, Git, Networking, Kubernetes, Google Cloud Platform",7.9
+Stellar Solutions,Cloud Architect,"System Design, JIRA, Azure, Security, Terraform, Networking, Scrum, Git",7.7
+NetSphere,Backend Developer,"PostgreSQL, Ruby, Scrum, Python, Agile, NoSQL, JIRA",7.3
+QuantumLeap,Cloud Architect,"Terraform, AWS, JIRA, Agile, System Design, Networking, Security, Git",7.5
+Vertex Dynamics,Mobile App Developer,"Kotlin, Agile, API Development, Git, React Native, Objective-C, Android SDK, Scrum",7.4
+Infinite Loop,Full-Stack Developer,"React, JIRA, MongoDB, Python, HTML, CSS",8.1
+Zenith Tech,DevOps Engineer,"AWS, Google Cloud Platform, CI/CD, API Development, Docker, JIRA",7.2
+TerraForm Inc.,Data Scientist,"Scikit-learn, R, Python, Agile, SQL",7.6
+Vertex Dynamics,Cloud Architect,"AWS, Agile, Kubernetes, System Design, Security",7.9
+FusionWorks,UI/UX Designer,"Adobe XD, Agile, Wireframing, Scrum, JIRA, UI/UX Design, Git",8.3
+BlueShift,Mobile App Developer,"Flutter, JIRA, Git, Objective-C, Kotlin",7.6
+NetSphere,Data Analyst,"Agile, Data Visualization, Scrum, Pandas, API Development, Tableau",7.3
+NanoWare,Frontend Developer,"Webpack, Vue.js, TypeScript, SASS, Angular, Scrum, Git, React",8.3
+QuantumLeap,UI/UX Designer,"Scrum, Git, Agile, Wireframing, User Research, UI/UX Design",7.7
+SynthCore,DevOps Engineer,"Google Cloud Platform, Prometheus, Kubernetes, Azure, AWS",7.1
+ByteForce,Frontend Developer,"Scrum, TypeScript, Next.js, API Development, JIRA, Angular, Webpack",8.8
+Apex Innovations,Security Analyst,"Scrum, Agile, Cybersecurity, Git, Ethical Hacking, Network Security, Penetration Testing, JIRA",8.8
+FutureProof,Backend Developer,"MongoDB, NoSQL, Kubernetes, C#, Python, API Development",8.1
+NextGen AI,Security Analyst,"SIEM, Ethical Hacking, Cryptography, Git",7.4
+Apex Innovations,Full-Stack Developer,"React, API Development, HTML, Node.js, JavaScript",7.1
+NovaPulse,Software Engineer,"Data Structures, Kubernetes, Go, Algorithms, Docker, System Design",8.9
+NeuralNet Systems,Software Engineer,"API Development, Data Structures, C++, Kubernetes, JIRA, Python",7.1
+Apex Innovations,Machine Learning Engineer,"Scikit-learn, NLP, Git, Keras, PyTorch",8.6
+Synergy Systems,Backend Developer,"JIRA, Ruby, Git, PostgreSQL",7.2
+FutureProof,UI/UX Designer,"Sketch, Figma, Agile, UI/UX Design, API Development",8.4
+Visionary AI,UI/UX Designer,"Scrum, Sketch, Agile, API Development, Adobe XD, Git, JIRA",8.3
+QuantumLeap,Software Engineer,"Scrum, System Design, C++, API Development, Docker, JIRA, Algorithms, Python",7.2
+NanoWare,UI/UX Designer,"Agile, UI/UX Design, Sketch, JIRA, Scrum, Figma",8.7
+LogicLoop,Software Engineer,"System Design, Data Structures, Python, Algorithms, C++",8.1
+TerraForm Inc.,Backend Developer,"Ruby, REST APIs, Kubernetes, NoSQL, Scrum, Java, Docker, Agile",7.5
+AeroVerse,Cloud Architect,"Scrum, JIRA, AWS, API Development, Networking",7.5
+DigitalFrontier,Software Engineer,"Python, Docker, C++, Kubernetes, JIRA, Algorithms, Go",7
+Synapse Corp,Data Analyst,"Scrum, Tableau, API Development, JIRA",7.6
+Predictive Analytics,UI/UX Designer,"User Research, Scrum, API Development, Git, Adobe XD, Sketch, UI/UX Design",7.3
+AquaGen,Data Scientist,"Scikit-learn, Data Visualization, NumPy, Python, Statistics",7.4
+Keystone Digital,Frontend Developer,"HTML, Next.js, Webpack, Agile, React",8.1
+Momentum Labs,Full-Stack Developer,"Python, JIRA, JavaScript, Agile, SQL, Scrum, Git, MongoDB",7.7
+AquaGen,Data Analyst,"JIRA, SQL, Git, Pandas, Tableau, Python",8.6
+WebWeavers,Full-Stack Developer,"Node.js, Scrum, HTML, CSS",7.4
+Zenith Tech,Data Scientist,"NumPy, Scrum, Statistics, Pandas",7.7
+P pinnacle Corp,Cloud Architect,"Git, Terraform, Google Cloud Platform, Kubernetes, JIRA, Scrum",7.2
+Apex Innovations,Machine Learning Engineer,"NLP, TensorFlow, JIRA, Pandas, Computer Vision, Git",8.8
+Alpha Systems,Machine Learning Engineer,"Git, Scrum, JIRA, PyTorch, Agile",8.2
+FutureProof,Machine Learning Engineer,"TensorFlow, Pandas, NumPy, Keras, Scrum",8.4
+Alpha Systems,Cloud Architect,"Terraform, Scrum, AWS, API Development, Azure, Networking, Google Cloud Platform",7.2
+Predictive Analytics,Full-Stack Developer,"REST APIs, Git, JIRA, Agile",7.1
+CyberGuard,Software Engineer,"Agile, Java, Kubernetes, Docker, C++, Algorithms, Go",8.2
+Vertex Dynamics,Cloud Architect,"Azure, JIRA, AWS, Git",7.2
+Orion Enterprises,Full-Stack Developer,"Node.js, Python, API Development, SQL, MongoDB, Git, JIRA",9
+CloudNine,Frontend Developer,"JIRA, Webpack, React, API Development, SASS",8.9
+P pinnacle Corp,Full-Stack Developer,"Node.js, JavaScript, API Development, JIRA",8.4
+Predictive Analytics,Backend Developer,"MongoDB, Java, C#, Python, NoSQL, Kubernetes, Ruby, SQL",7.8
+EchoSphere,Full-Stack Developer,"CSS, MongoDB, REST APIs, React",8.6
+Infinite Loop,Data Scientist,"API Development, Scikit-learn, Git, Agile, SQL, Scrum, JIRA",7.6
+Orion Enterprises,Full-Stack Developer,"CSS, Agile, REST APIs, GraphQL, SQL, API Development",8.1
+Predictive Analytics,Software Engineer,"Git, System Design, Python, API Development, Docker, Algorithms, Kubernetes, Agile",7.5
+BioSynth,Full-Stack Developer,"Scrum, HTML, API Development, GraphQL",7.6
+WebWeavers,DevOps Engineer,"Scrum, AWS, Azure, CI/CD, Agile, Docker",9
+BlueShift,Data Scientist,"SQL, Deep Learning, Git, API Development, Pandas",8.9
+Omega Solutions,Mobile App Developer,"Swift, API Development, Kotlin, Objective-C, Git, iOS SDK, Android SDK, Agile",7.3
+BinaryBridge,Data Analyst,"JIRA, SQL, Python, Statistics, Agile",8.7
+PixelPerfect,UI/UX Designer,"Scrum, UI/UX Design, API Development, Sketch",9
+DataSphere,Backend Developer,"Agile, Python, NoSQL, Node.js, Git, GraphQL, JIRA",7.9
+WebWeavers,Data Analyst,"Statistics, Tableau, Agile, API Development, Python, SQL",8.9
+AquaGen,Security Analyst,"Network Security, Cryptography, Git, Penetration Testing, Cybersecurity, API Development, Ethical Hacking",7.5
+Cognitive AI,Backend Developer,"Scrum, Python, C#, Go, PostgreSQL, MongoDB, Git, JIRA",7.9
+CodeCrafters,Data Scientist,"Deep Learning, TensorFlow, Git, PyTorch, Scrum, API Development",8.5
+Cognitive AI,Data Analyst,"API Development, Git, Power BI, Pandas, Statistics",7.8
+DataSphere,Data Scientist,"Data Visualization, Scikit-learn, Agile, Deep Learning, Scrum",8.6
+ByteForce,Data Analyst,"API Development, Git, Statistics, Tableau, Python, Power BI, Data Visualization, JIRA",8.5
+NovaPulse,Mobile App Developer,"Flutter, Scrum, API Development, Agile",8.5
+Insight Data,Software Engineer,"System Design, Docker, Scrum, API Development, Go, Agile, Java",7.6
+Omega Solutions,Data Analyst,"Scrum, Statistics, JIRA, SQL, Agile, Tableau, Data Visualization",7.3
+FusionWorks,Backend Developer,"PostgreSQL, Node.js, REST APIs, Java, NoSQL",7.8
+InnovateTech,Full-Stack Developer,"Git, Agile, GraphQL, JIRA, REST APIs",7.7
+Orion Enterprises,Backend Developer,"MongoDB, Scrum, API Development, Docker, Node.js, Java, NoSQL",7.1
+Omega Solutions,Machine Learning Engineer,"NumPy, PyTorch, Python, Git, NLP, Scrum, TensorFlow, API Development",8.1
+ByteForce,Machine Learning Engineer,"Git, Keras, Python, NLP, JIRA",8.5
+RedShift,Backend Developer,"Docker, Scrum, Java, Agile, Go, API Development",7.7
+CloudNine,Mobile App Developer,"React Native, Android SDK, iOS SDK, Swift, Scrum, Agile, Objective-C, JIRA",7.4
+Keystone Digital,Data Analyst,"Tableau, Scrum, SQL, Excel, Agile, JIRA, Python",8.2
+Keystone Digital,Data Scientist,"Machine Learning, Data Visualization, JIRA, TensorFlow, Statistics, Pandas, Git",8.5
+NanoWare,DevOps Engineer,"JIRA, Kubernetes, Prometheus, Agile, Ansible, AWS, Jenkins, Scrum",7.2
+Quantum Solutions,Cloud Architect,"Google Cloud Platform, Terraform, Git, System Design, AWS, Networking, Scrum",7.5
+Omega Solutions,Full-Stack Developer,"HTML, MongoDB, React, API Development, SQL",8.1
+Visionary AI,Data Scientist,"Scikit-learn, JIRA, PyTorch, Pandas, Scrum",7.2
+CodeCrafters,Cloud Architect,"JIRA, Networking, Scrum, Kubernetes",8.4
+Orion Enterprises,UI/UX Designer,"UI/UX Design, Adobe XD, API Development, Figma, Scrum",8
+Quantum Solutions,Software Engineer,"Kubernetes, Algorithms, Go, Java",8
+ByteForce,Security Analyst,"API Development, Penetration Testing, Git, JIRA, Ethical Hacking, Scrum",9
+Orion Enterprises,Backend Developer,"NoSQL, Python, Docker, Scrum, GraphQL, Node.js, Git",8.6
+EchoSphere,DevOps Engineer,"Ansible, JIRA, Jenkins, Terraform, Docker, Agile, AWS, API Development",8.2
+BioSynth,Machine Learning Engineer,"API Development, Scikit-learn, Python, Git",8.7
+Visionary AI,DevOps Engineer,"Prometheus, Azure, Terraform, CI/CD",8.4
+DataSphere,Mobile App Developer,"iOS SDK, Kotlin, Android SDK, Git, JIRA, React Native",8.2
+InfraCloud,Mobile App Developer,"Flutter, iOS SDK, Git, Scrum",7.7
+Omega Solutions,UI/UX Designer,"Sketch, Wireframing, Scrum, Adobe XD",7.7
+Stellar Solutions,Security Analyst,"Penetration Testing, Cryptography, Network Security, Ethical Hacking, SIEM, JIRA, Git",7.4
+Infinite Loop,Machine Learning Engineer,"JIRA, API Development, PyTorch, NLP, Git, Pandas",8.9
+Stellar Solutions,Cloud Architect,"Agile, Google Cloud Platform, System Design, Terraform",7.8
+BioLogics,UI/UX Designer,"Scrum, Git, JIRA, Adobe XD",7.9
+DataSphere,Frontend Developer,"TypeScript, CSS, React, API Development",7.3
+Visionary AI,Backend Developer,"Kubernetes, NoSQL, PostgreSQL, REST APIs, Java, SQL",8.8
+NovaPulse,DevOps Engineer,"Docker, Git, Google Cloud Platform, Terraform, Jenkins, Scrum",7.6
+RedShift,Backend Developer,"GraphQL, Node.js, Agile, MongoDB, JIRA, Scrum, API Development, Ruby",7.2
+FusionWorks,Frontend Developer,"HTML, Angular, Git, Redux, Vue.js, Next.js, API Development, JavaScript",8.3
+InnovateTech,Mobile App Developer,"Android SDK, React Native, Objective-C, JIRA, Agile, Flutter, API Development",8.7
+BlueShift,Security Analyst,"API Development, Network Security, Penetration Testing, Cybersecurity, Git, JIRA, Agile, Cryptography",8.6
+InnovateTech,Software Engineer,"API Development, Git, JIRA, Docker, Python",7.8
+NanoWare,Machine Learning Engineer,"Python, Keras, NLP, API Development, Git",7.1
+NeuralNet Systems,UI/UX Designer,"JIRA, Wireframing, Agile, Sketch, Figma",8.2
+NanoWare,Frontend Developer,"CSS, SASS, Agile, TypeScript, Vue.js, HTML, Redux, Webpack",7.1
+Zenith Tech,Machine Learning Engineer,"JIRA, API Development, PyTorch, TensorFlow, NLP, Scrum, Computer Vision, Scikit-learn",7.5
+LogicLoop,Data Analyst,"Git, Power BI, Excel, SQL, JIRA",7.5
+Cognitive AI,Full-Stack Developer,"Python, REST APIs, Scrum, API Development, Agile, GraphQL, SQL, HTML",8.5
+ByteForce,Full-Stack Developer,"GraphQL, SQL, Node.js, Git",7.5
+Omega Solutions,Cloud Architect,"AWS, Scrum, Terraform, API Development, JIRA, Azure",7.6
+Vertex Dynamics,Frontend Developer,"Next.js, CSS, SASS, Scrum, Angular, Redux, Vue.js",8.3
+Vertex Dynamics,Cloud Architect,"Terraform, System Design, JIRA, Azure, Networking, Git, API Development, Google Cloud Platform",8.2
+AeroVerse,Software Engineer,"API Development, C++, Java, JIRA, Algorithms, Docker, Scrum, Git",7.7
+EchoSphere,Frontend Developer,"HTML, TypeScript, Scrum, Vue.js, API Development, Next.js",8.1
+Polaris Tech,Data Scientist,"SQL, R, NumPy, Scrum, PyTorch",7.1
+NetSphere,DevOps Engineer,"Git, Google Cloud Platform, Prometheus, JIRA, CI/CD, Terraform, Kubernetes, Agile",7.5
+TerraForm Inc.,Mobile App Developer,"React Native, Git, API Development, Agile",7.6
+AeroVerse,Data Analyst,"Git, JIRA, Python, API Development, Statistics",7.8
+CyberGuard,UI/UX Designer,"User Research, Wireframing, Git, Sketch, JIRA",8.2
+Quantum Solutions,Frontend Developer,"React, Angular, Vue.js, API Development, Scrum, CSS",8.3
+FutureProof,Data Scientist,"Agile, Deep Learning, SQL, Data Visualization",7.2
+EchoSphere,Software Engineer,"Git, C++, Data Structures, Kubernetes, Java, API Development, Scrum, Docker",8.9
+QuantumLeap,Security Analyst,"Network Security, Ethical Hacking, Cybersecurity, Scrum, Agile",8.4
+RedShift,Cloud Architect,"API Development, Kubernetes, Agile, Networking, Terraform",8.1
+NovaPulse,Machine Learning Engineer,"Agile, Git, PyTorch, NumPy, JIRA, Scikit-learn",8.8
+EchoSphere,UI/UX Designer,"UI/UX Design, Git, Agile, JIRA, Sketch, Wireframing, Scrum, Figma",8.9
+InfraCloud,Mobile App Developer,"Flutter, iOS SDK, API Development, Swift, Kotlin",7.8
+Infinite Loop,DevOps Engineer,"Scrum, Azure, Jenkins, AWS, Git, Terraform",8.6
+Synapse Corp,Data Scientist,"Deep Learning, Agile, Statistics, API Development, R",7.2
+SynthCore,Backend Developer,"Ruby, Scrum, REST APIs, GraphQL, Git, C#",8.5
+AquaGen,Security Analyst,"Network Security, Scrum, Penetration Testing, Ethical Hacking, Git, SIEM, Cryptography, JIRA",7.9
+BlueShift,Cloud Architect,"Security, Agile, API Development, Google Cloud Platform",8.6
+AeroVerse,Full-Stack Developer,"JavaScript, Python, HTML, Scrum, GraphQL",7.8
+FutureProof,Mobile App Developer,"Git, JIRA, Swift, iOS SDK, Scrum",7.3
+PixelPerfect,Mobile App Developer,"API Development, Git, iOS SDK, Swift, Objective-C, Scrum",7.5
+Orion Enterprises,Full-Stack Developer,"Scrum, Git, SQL, Node.js, HTML",9
+TerraForm Inc.,Data Scientist,"API Development, Statistics, Git, Pandas, Scikit-learn, Python, SQL, Scrum",7.4
+CodeCrafters,Machine Learning Engineer,"Scikit-learn, Git, NumPy, TensorFlow, Agile, JIRA",7.5
+WebWeavers,Full-Stack Developer,"REST APIs, Scrum, Agile, Python, API Development",7.1
+LogicLoop,Data Analyst,"Excel, Data Visualization, Scrum, SQL, Tableau, Agile, Statistics",8.6
+EchoSphere,Frontend Developer,"Angular, Redux, Agile, Next.js, HTML, TypeScript, React, Git",7.9
+Quantum Solutions,Data Scientist,"NumPy, Scrum, Deep Learning, Git, Python",7.7
+HelioDynamics,UI/UX Designer,"API Development, Adobe XD, UI/UX Design, Figma, Wireframing, JIRA",7.5
+Cognitive AI,UI/UX Designer,"Figma, UI/UX Design, Wireframing, Agile, Sketch, Adobe XD, Git",7.1
+SkyBridge,UI/UX Designer,"JIRA, Scrum, Wireframing, Adobe XD",8.2
+Zenith Tech,UI/UX Designer,"Agile, Figma, Git, UI/UX Design, Sketch, Scrum",7.8
+NextGen AI,UI/UX Designer,"User Research, Wireframing, UI/UX Design, JIRA, API Development, Figma",8.3
+CyberGuard,Data Scientist,"TensorFlow, Git, PyTorch, JIRA, Data Visualization, Deep Learning, SQL, Pandas",7.1
+SkyBridge,Full-Stack Developer,"Python, MongoDB, React, REST APIs",7.9
+DataSphere,Data Analyst,"Agile, Python, Data Visualization, Power BI, Statistics, Tableau",8.9
+Vertex Dynamics,UI/UX Designer,"API Development, Scrum, Git, User Research, Sketch, Figma, UI/UX Design",7.4
+Polaris Tech,Mobile App Developer,"Swift, Kotlin, Agile, Flutter",7.3
+Predictive Analytics,Cloud Architect,"Kubernetes, AWS, Agile, Security, JIRA, Git",8.3
+EchoSphere,Full-Stack Developer,"JIRA, JavaScript, SQL, MongoDB",7.7
+AeroVerse,Mobile App Developer,"Kotlin, Git, Objective-C, Swift, iOS SDK, Agile, Scrum",8.7
+Apex Innovations,Machine Learning Engineer,"TensorFlow, PyTorch, Computer Vision, Agile, JIRA, Scrum",7.1
+CyberGuard,Data Analyst,"Power BI, Statistics, Scrum, Data Visualization, JIRA",7.6
+CyberGuard,Machine Learning Engineer,"NLP, JIRA, PyTorch, API Development, Keras",7.7
+NanoWare,Mobile App Developer,"Scrum, Agile, Git, Flutter, API Development, React Native, iOS SDK, Android SDK",7.5
+AeroVerse,Backend Developer,"PostgreSQL, Go, Agile, Scrum",8.6
+CloudNine,Software Engineer,"Python, Algorithms, Git, Scrum, C++, Java, Agile",8.3
+FusionWorks,Backend Developer,"PostgreSQL, SQL, API Development, MongoDB, Node.js, Kubernetes, Python, Scrum",8.7
+Orion Enterprises,UI/UX Designer,"User Research, Git, Scrum, Sketch",8.8
+Keystone Digital,Backend Developer,"NoSQL, REST APIs, Ruby, Kubernetes, Node.js, MongoDB, Git, Agile",7.5
+LogicLoop,Frontend Developer,"Agile, Next.js, SASS, Git, CSS, API Development",9
+Predictive Analytics,Data Analyst,"Pandas, SQL, Git, Scrum, API Development, Statistics",8.9
+Predictive Analytics,Backend Developer,"Kubernetes, REST APIs, Docker, Agile, SQL, Ruby, Scrum",7.2
+Synergy Systems,Security Analyst,"Git, Ethical Hacking, Penetration Testing, Network Security, API Development",8.5
+Momentum Labs,Backend Developer,"PostgreSQL, Python, MongoDB, Node.js",7
+WebWeavers,Backend Developer,"C#, Scrum, GraphQL, API Development, REST APIs, SQL, Git, Agile",8
+AquaGen,Backend Developer,"Ruby, JIRA, Java, PostgreSQL, NoSQL, REST APIs, GraphQL",7.1
+ByteForce,DevOps Engineer,"Scrum, Prometheus, Docker, Jenkins, Google Cloud Platform, AWS, Kubernetes",8.3
+Orion Enterprises,Machine Learning Engineer,"API Development, NLP, TensorFlow, Agile, Scikit-learn",7.6
+NeuralNet Systems,DevOps Engineer,"API Development, Docker, Azure, Agile, Prometheus, Scrum",7.6
+Insight Data,Machine Learning Engineer,"JIRA, Pandas, Scrum, API Development, TensorFlow",8.8
+BlueShift,Mobile App Developer,"Git, JIRA, Objective-C, Scrum",8.3
+Infinite Loop,Mobile App Developer,"Swift, Android SDK, JIRA, Agile",7.8
+SkyBridge,Cloud Architect,"Google Cloud Platform, Scrum, System Design, JIRA",7.7
+NovaPulse,Cloud Architect,"System Design, Terraform, AWS, Networking, JIRA, Azure, Google Cloud Platform, Agile",7.4
+InfraCloud,Cloud Architect,"Security, Scrum, Git, Networking, API Development, JIRA, System Design, Terraform",7.5
+CyberGuard,Machine Learning Engineer,"Scrum, Agile, Keras, TensorFlow",8.4
+CyberGuard,DevOps Engineer,"Kubernetes, Terraform, Docker, Prometheus",8.1
+SynthCore,Frontend Developer,"Redux, TypeScript, Vue.js, JavaScript, Angular, API Development, Agile, Webpack",7.7
+Orion Enterprises,Frontend Developer,"Agile, SASS, HTML, JIRA, Scrum, TypeScript, API Development, JavaScript",7.2
+QuantumLeap,UI/UX Designer,"Wireframing, User Research, Figma, Git, API Development, Agile",7.3
+AquaGen,Software Engineer,"Scrum, JIRA, Kubernetes, Go, System Design, Java, Data Structures, API Development",7.2
+EchoSphere,Security Analyst,"SIEM, API Development, Git, JIRA, Ethical Hacking",8.8
+Insight Data,Security Analyst,"Scrum, API Development, SIEM, Penetration Testing, JIRA, Agile",8.6
+Keystone Digital,Security Analyst,"SIEM, JIRA, Ethical Hacking, Network Security, Cryptography, Git, Scrum",7.7
+Zenith Tech,Backend Developer,"Agile, NoSQL, C#, Node.js, Git, REST APIs, API Development, Java",7.8
+NanoWare,Full-Stack Developer,"Node.js, SQL, React, Scrum, HTML, Agile, REST APIs, JavaScript",7.6
+DigitalFrontier,Software Engineer,"Git, Kubernetes, Python, Go, Data Structures, Java",7.4
+Quantum Solutions,DevOps Engineer,"CI/CD, Docker, Git, Prometheus",8.9
+DigitalFrontier,Data Analyst,"Tableau, JIRA, SQL, Agile, Excel, Scrum",8.4
+Synapse Corp,Software Engineer,"C++, Java, Data Structures, Go",8.7
+Apex Innovations,Data Scientist,"Data Visualization, Statistics, R, API Development, PyTorch, Deep Learning, Agile, SQL",8.8
+Apex Innovations,Mobile App Developer,"API Development, Android SDK, React Native, Objective-C",8.8
+Infinite Loop,Mobile App Developer,"Kotlin, API Development, Scrum, React Native, Flutter, Agile, JIRA, Objective-C",7.8
+BinaryBridge,Backend Developer,"REST APIs, Node.js, Scrum, C#, JIRA, SQL, MongoDB, GraphQL",7.8
+Momentum Labs,Full-Stack Developer,"SQL, Agile, CSS, GraphQL, Node.js, JavaScript, JIRA, MongoDB",8
+SkyBridge,Full-Stack Developer,"React, Scrum, JavaScript, Python, HTML, Agile",7.1
+PixelPerfect,Data Analyst,"JIRA, Power BI, Statistics, Agile",8.4
+HelioDynamics,Backend Developer,"Scrum, SQL, MongoDB, PostgreSQL, REST APIs",7.1
+Insight Data,Security Analyst,"JIRA, Cybersecurity, Ethical Hacking, SIEM, Penetration Testing, Network Security, Scrum",8.8
+Zenith Tech,Mobile App Developer,"Agile, iOS SDK, Git, Flutter, Objective-C, Kotlin, React Native, API Development",7.7
+NetSphere,Data Scientist,"Data Visualization, Scikit-learn, TensorFlow, Machine Learning, JIRA, R",7.5
+Insight Data,Full-Stack Developer,"Node.js, React, JIRA, Git",8.3
+CloudNine,Data Scientist,"PyTorch, API Development, Scrum, Git, R, JIRA, Statistics, Data Visualization",8.6
+SynthCore,Frontend Developer,"JIRA, React, Redux, Agile, API Development",8.2
+CodeCrafters,Security Analyst,"Scrum, JIRA, Agile, Git, Cryptography, API Development, Penetration Testing, SIEM",7.3
+QuantumLeap,Software Engineer,"Algorithms, Java, Python, Go, JIRA",7.5
+AquaGen,Security Analyst,"API Development, Cybersecurity, Git, Ethical Hacking",8.5
+Cognitive AI,UI/UX Designer,"User Research, Git, Figma, Adobe XD, UI/UX Design, Wireframing, Scrum",7.3
+Apex Innovations,Machine Learning Engineer,"API Development, NumPy, Keras, Git, Pandas, TensorFlow, PyTorch",7.5
+WebWeavers,Mobile App Developer,"Swift, JIRA, Android SDK, React Native, Scrum, iOS SDK, Agile",7.3
+CodeCrafters,Full-Stack Developer,"GraphQL, CSS, Agile, API Development, Git, Node.js",8
+CloudNine,Machine Learning Engineer,"Keras, Python, Scrum, API Development, TensorFlow, Pandas, NumPy, Agile",8.1
+HelioDynamics,Machine Learning Engineer,"Python, NumPy, Keras, NLP, Git",7
+Apex Innovations,Security Analyst,"Cryptography, JIRA, Ethical Hacking, SIEM, Agile, Cybersecurity, API Development, Scrum",8.5
+NetSphere,Data Scientist,"Scikit-learn, PyTorch, Statistics, Agile, JIRA, SQL, Machine Learning",8.4
+LogicLoop,UI/UX Designer,"UI/UX Design, Adobe XD, User Research, Wireframing, Sketch",8.4
+Synergy Systems,Mobile App Developer,"Kotlin, Agile, iOS SDK, React Native, Objective-C, API Development, Scrum, JIRA",7.8
+EchoSphere,Mobile App Developer,"Scrum, Objective-C, JIRA, iOS SDK",7.7
+AquaGen,Mobile App Developer,"Scrum, Swift, Git, API Development",7.2
+NetSphere,Data Scientist,"Scikit-learn, Pandas, Python, R",7.8
+Orion Enterprises,Software Engineer,"System Design, Java, Data Structures, Python",8.4
+DigitalFrontier,Data Scientist,"PyTorch, Scikit-learn, Scrum, Python, Machine Learning, SQL, Statistics, API Development",8.2
+CodeCrafters,Backend Developer,"API Development, Node.js, JIRA, Scrum",8.4
+Predictive Analytics,UI/UX Designer,"API Development, Git, Adobe XD, Sketch",7.4
+DigitalFrontier,Mobile App Developer,"Swift, JIRA, React Native, API Development, Objective-C, iOS SDK",7.9
+TerraForm Inc.,Machine Learning Engineer,"Python, Scikit-learn, Git, Computer Vision, Pandas",7.9
+EchoSphere,Machine Learning Engineer,"Scrum, TensorFlow, JIRA, Python, PyTorch, Computer Vision",7.5
+WebWeavers,Backend Developer,"Go, REST APIs, Scrum, JIRA, NoSQL, API Development, Git, Node.js",7.1
+Stellar Solutions,Machine Learning Engineer,"NumPy, Scrum, TensorFlow, NLP, Agile, Scikit-learn, API Development, PyTorch",7.5
+NovaPulse,DevOps Engineer,"Scrum, Agile, Jenkins, CI/CD, Docker",8
+CyberGuard,Data Analyst,"Data Visualization, Scrum, JIRA, Python",8
+AquaGen,Full-Stack Developer,"JIRA, API Development, Scrum, React",8.7
+AeroVerse,Cloud Architect,"System Design, Security, AWS, Azure, Scrum, Git",7.8
+Orion Enterprises,Machine Learning Engineer,"Scrum, Scikit-learn, Agile, Python, NumPy",8.3
+Zenith Tech,UI/UX Designer,"UI/UX Design, User Research, Adobe XD, Sketch, Figma, JIRA, Wireframing",8.2
+QuantumLeap,Backend Developer,"JIRA, Node.js, Python, Docker, C#",8.9
+Visionary AI,Software Engineer,"Data Structures, System Design, Agile, Java, Docker, C++, Go, Git",8
+Infinite Loop,DevOps Engineer,"AWS, CI/CD, Docker, Prometheus",7.1
+NeuralNet Systems,Mobile App Developer,"React Native, Kotlin, Git, API Development",7.3
+Visionary AI,Mobile App Developer,"Flutter, API Development, iOS SDK, Git, Kotlin, Objective-C",8
+FusionWorks,Full-Stack Developer,"Git, Scrum, API Development, Python, GraphQL, REST APIs, JavaScript",7.9
+RedShift,Frontend Developer,"HTML, Redux, JavaScript, JIRA",7.5
+P pinnacle Corp,Security Analyst,"Cybersecurity, API Development, Git, Cryptography, Network Security, Ethical Hacking, Agile",7.6
+WebWeavers,Backend Developer,"Python, Java, Scrum, Ruby, Docker, SQL, Kubernetes, Go",7.1
+CyberGuard,Data Analyst,"Power BI, Git, Scrum, API Development, Pandas, Tableau, Excel, Data Visualization",7.7
+Synergy Systems,Cloud Architect,"Agile, Security, Google Cloud Platform, AWS, JIRA, API Development",7.3
+NetSphere,Security Analyst,"Cryptography, JIRA, Agile, Penetration Testing, Scrum",7.7
+Visionary AI,Cloud Architect,"Google Cloud Platform, Security, AWS, Git",8.4
+BinaryBridge,Software Engineer,"JIRA, Python, Go, C++, Kubernetes, Data Structures, Docker, Scrum",8.6
+Zenith Tech,Cloud Architect,"JIRA, API Development, Agile, Google Cloud Platform, Terraform, Networking, Azure, AWS",8.7
+NovaPulse,Frontend Developer,"API Development, JavaScript, Webpack, TypeScript, Scrum, Agile, Vue.js",7.2
+NanoWare,Machine Learning Engineer,"API Development, Computer Vision, PyTorch, TensorFlow, NLP, Python",7.9
+RedShift,Software Engineer,"Algorithms, JIRA, Python, Docker",7.8
+NovaPulse,Security Analyst,"JIRA, Cryptography, Scrum, Penetration Testing, Ethical Hacking, Agile",7.3
+TerraForm Inc.,Cloud Architect,"API Development, Agile, Security, Kubernetes, AWS, JIRA, Google Cloud Platform, System Design",7.6
+Quantum Solutions,Data Scientist,"Python, R, Scikit-learn, SQL, Git, Machine Learning, Pandas",7.1
+Predictive Analytics,Data Scientist,"Pandas, Deep Learning, JIRA, SQL, PyTorch, R",8.9
+Stellar Solutions,Machine Learning Engineer,"JIRA, Python, Scrum, NLP, Keras, Git",7.9
+Orion Enterprises,Machine Learning Engineer,"Computer Vision, JIRA, Scrum, API Development, Git, Scikit-learn, NumPy",7
+DigitalFrontier,Data Scientist,"Scrum, Scikit-learn, Agile, PyTorch, API Development, Python, R",7.4
+NetSphere,Software Engineer,"Java, Agile, Data Structures, Go, Scrum, Kubernetes, Algorithms, JIRA",8.1
+Stellar Solutions,Software Engineer,"C++, Git, Scrum, Agile, Python",7.6
+FusionWorks,Full-Stack Developer,"Node.js, Agile, HTML, MongoDB",8.5
+BlueShift,Full-Stack Developer,"Node.js, JavaScript, SQL, HTML, REST APIs, React, CSS, Git",8.6
+BioSynth,Machine Learning Engineer,"Keras, Scikit-learn, Git, Python, NumPy, NLP, PyTorch",8.5
+BioSynth,Security Analyst,"Scrum, Cryptography, SIEM, JIRA, Ethical Hacking, Network Security",8.8
+RedShift,Data Analyst,"Data Visualization, API Development, Statistics, Pandas",8.4
+EchoSphere,Frontend Developer,"HTML, API Development, Next.js, JavaScript, Scrum, Redux",8.5
+NovaPulse,Cloud Architect,"Security, Kubernetes, System Design, API Development, Google Cloud Platform, Networking, Azure",8.3
+DigitalFrontier,DevOps Engineer,"CI/CD, Git, Docker, Azure, Prometheus, Jenkins, Kubernetes",7.5
+Visionary AI,Security Analyst,"Agile, Scrum, Cybersecurity, Cryptography",8.7
+Insight Data,Frontend Developer,"React, TypeScript, HTML, Scrum, Next.js, JavaScript, Vue.js",8.1
+Polaris Tech,Data Scientist,"Git, Scikit-learn, NumPy, Pandas, Deep Learning, TensorFlow, API Development, Data Visualization",8.9
+AquaGen,Security Analyst,"JIRA, Git, Penetration Testing, API Development, Scrum, Network Security, Ethical Hacking, SIEM",7.2
+InnovateTech,Data Scientist,"NumPy, JIRA, Git, Statistics",8.9
+BlueShift,Security Analyst,"Git, Penetration Testing, JIRA, Ethical Hacking, Cryptography, Scrum, Network Security, SIEM",8.2
+Alpha Systems,Data Scientist,"Agile, Pandas, Deep Learning, Python, TensorFlow",7.7
+Cognitive AI,Mobile App Developer,"API Development, Flutter, Objective-C, Swift, Agile, Scrum",7.1
+Alpha Systems,Security Analyst,"Ethical Hacking, Cryptography, JIRA, Penetration Testing, Network Security, Git, Agile",7.1
+EchoSphere,Mobile App Developer,"Kotlin, Agile, iOS SDK, Scrum, Android SDK, Objective-C",7.5
+NanoWare,Software Engineer,"API Development, Scrum, System Design, Java, Go, Algorithms",7
+AeroVerse,Cloud Architect,"Kubernetes, JIRA, Terraform, AWS, Networking",8.8
+Momentum Labs,Software Engineer,"Agile, Algorithms, Go, Java, Data Structures, Python",7.4
+DataSphere,Machine Learning Engineer,"Agile, Keras, Pandas, PyTorch, NumPy, TensorFlow, API Development",7.4
+Stellar Solutions,Security Analyst,"Agile, Git, Cybersecurity, Cryptography",8.9
+Cognitive AI,UI/UX Designer,"Adobe XD, UI/UX Design, User Research, JIRA, Figma, Wireframing, Sketch, API Development",8.3
+Vertex Dynamics,Mobile App Developer,"iOS SDK, Agile, Scrum, React Native, Flutter, Objective-C, Git",8.5
+RedShift,Software Engineer,"Agile, JIRA, Go, C++, Data Structures",7.8
+NovaPulse,Frontend Developer,"Vue.js, Redux, CSS, API Development, JIRA",8.8
+BioSynth,Backend Developer,"MongoDB, Docker, Go, GraphQL, Python, C#",7.3
+LogicLoop,Cloud Architect,"Terraform, Git, Scrum, AWS",7.5
+Cognitive AI,Cloud Architect,"Terraform, System Design, Google Cloud Platform, Git, Networking, API Development, Security",8.7
+QuantumLeap,Software Engineer,"Docker, Agile, Go, Git, API Development, C++, Algorithms, Python",7.3
+Synapse Corp,UI/UX Designer,"Git, Agile, Wireframing, User Research",8.9
+DataSphere,Software Engineer,"API Development, Kubernetes, JIRA, System Design",7.9
+Synergy Systems,Cloud Architect,"Scrum, Agile, API Development, Networking, Google Cloud Platform, Kubernetes, Security",7.9
+Synergy Systems,Software Engineer,"Kubernetes, API Development, Git, Docker, Java, Agile, Python, Scrum",8.3
+NovaPulse,DevOps Engineer,"Ansible, AWS, API Development, Docker, Jenkins, Scrum, Google Cloud Platform",8.7
+BioLogics,Data Scientist,"Data Visualization, Scikit-learn, PyTorch, Statistics, SQL, JIRA, Deep Learning, R",7.1
+AquaGen,Data Analyst,"SQL, Tableau, Excel, Pandas, Python",8.3
+QuantumLeap,Cloud Architect,"Terraform, Google Cloud Platform, API Development, Git, Networking",7.6
+Momentum Labs,DevOps Engineer,"Scrum, Prometheus, CI/CD, Kubernetes, Ansible, API Development, JIRA, Git",7.9
+EchoSphere,Backend Developer,"Docker, Java, C#, REST APIs, GraphQL, Go, NoSQL",7.6
+Cognitive AI,Software Engineer,"Docker, Go, Scrum, Python, Java, Git",8.4
+NeuralNet Systems,Data Analyst,"Power BI, SQL, Data Visualization, Git, Scrum, Pandas, JIRA, Tableau",8.4
+RedShift,Mobile App Developer,"Agile, React Native, API Development, Flutter, Android SDK, Swift, Objective-C, JIRA",7.7
+DigitalFrontier,Backend Developer,"SQL, GraphQL, MongoDB, C#, PostgreSQL",7.7
+DigitalFrontier,Security Analyst,"Agile, Git, Network Security, Ethical Hacking, SIEM",8
+LogicLoop,UI/UX Designer,"Scrum, Agile, Git, UI/UX Design, API Development",8.5
+SkyBridge,UI/UX Designer,"User Research, UI/UX Design, Adobe XD, Agile, Sketch, Scrum",7.3
+FusionWorks,Mobile App Developer,"iOS SDK, Swift, Git, JIRA, Kotlin, Flutter",7.7
+DataSphere,Backend Developer,"Node.js, JIRA, API Development, Python, Java, Scrum",7.7
+Synergy Systems,Software Engineer,"Algorithms, System Design, Data Structures, Scrum, Go, Agile",7.1
+Stellar Solutions,Software Engineer,"Algorithms, Agile, Git, Docker, Python",7.8
+CodeCrafters,DevOps Engineer,"JIRA, Terraform, Google Cloud Platform, Prometheus, Jenkins, Git, Kubernetes",8
+CyberGuard,Backend Developer,"API Development, Java, C#, Python, REST APIs",7.3
+BioSynth,DevOps Engineer,"Docker, Scrum, Google Cloud Platform, Kubernetes",7.4
+QuantumLeap,DevOps Engineer,"Agile, Ansible, JIRA, Prometheus",7.9
+DataSphere,Data Analyst,"JIRA, Pandas, Git, Statistics",7.1
+NanoWare,Frontend Developer,"Agile, HTML, JIRA, Vue.js, Scrum",8.2
+NanoWare,Security Analyst,"SIEM, Cryptography, Agile, API Development, Network Security, Penetration Testing, Ethical Hacking, Git",8
+SynthCore,Cloud Architect,"Azure, Kubernetes, Agile, System Design",8.3
+NanoWare,Mobile App Developer,"Swift, Kotlin, API Development, React Native",7.1
+Apex Innovations,Software Engineer,"Kubernetes, Git, System Design, JIRA, Python, Agile, Java",8
+Predictive Analytics,Full-Stack Developer,"Scrum, MongoDB, CSS, React, REST APIs, Git, SQL",7.6
+NextGen AI,Cloud Architect,"Azure, Terraform, AWS, Git, System Design, Google Cloud Platform",8.9
+SynthCore,Full-Stack Developer,"GraphQL, Git, JavaScript, HTML, Agile",8.2
+Orion Enterprises,Data Scientist,"JIRA, Data Visualization, NumPy, TensorFlow, Scrum",7.8
+QuantumLeap,Machine Learning Engineer,"API Development, Git, Agile, TensorFlow, Computer Vision, Python, NLP, PyTorch",8.8
+WebWeavers,Cloud Architect,"Networking, Kubernetes, AWS, Terraform",7.1
+EchoSphere,Security Analyst,"Agile, SIEM, Git, Ethical Hacking, JIRA, API Development",8.4
+Omega Solutions,Machine Learning Engineer,"JIRA, NLP, TensorFlow, Scrum",7.1
+Zenith Tech,Software Engineer,"C++, API Development, System Design, Git",7.2
+BlueShift,Security Analyst,"Agile, Cybersecurity, Cryptography, SIEM, Network Security, Ethical Hacking, Penetration Testing",8.9
+Quantum Solutions,Frontend Developer,"API Development, HTML, JavaScript, Agile, Redux, Angular, CSS, JIRA",7.2
+QuantumLeap,Cloud Architect,"Google Cloud Platform, Scrum, JIRA, Agile, Git, Networking, AWS",7.3
+Insight Data,Mobile App Developer,"Android SDK, API Development, Flutter, JIRA, iOS SDK, React Native",8.5
+HelioDynamics,Security Analyst,"API Development, Network Security, Git, Cryptography, Agile",8.5
+NanoWare,Security Analyst,"Git, Agile, API Development, Network Security, Cryptography",7.4
+BinaryBridge,Software Engineer,"JIRA, Git, Kubernetes, System Design, API Development, Agile",7.4
+FutureProof,Security Analyst,"JIRA, Git, Cryptography, Cybersecurity, Agile",7.6
+Polaris Tech,Machine Learning Engineer,"Keras, NLP, Scikit-learn, PyTorch, TensorFlow",7.8
+ByteForce,Full-Stack Developer,"GraphQL, Node.js, Agile, SQL, HTML, API Development, Python",7.6
+P pinnacle Corp,UI/UX Designer,"Agile, User Research, Scrum, JIRA, Adobe XD, UI/UX Design",8.8
+LogicLoop,Full-Stack Developer,"Agile, GraphQL, JavaScript, HTML, JIRA, REST APIs, Scrum",8
+CodeCrafters,Cloud Architect,"Git, Terraform, Scrum, Networking, AWS, JIRA",8.4
+Cognitive AI,Full-Stack Developer,"REST APIs, SQL, Agile, Python",7
+NanoWare,Cloud Architect,"System Design, Azure, JIRA, Agile, Networking, Security, API Development, Google Cloud Platform",8.1
+Infinite Loop,Mobile App Developer,"Git, Android SDK, iOS SDK, React Native, JIRA, Scrum, Objective-C, API Development",7.3
+BioSynth,Software Engineer,"JIRA, Python, Java, Agile, Data Structures, Go",8.6
+ByteForce,DevOps Engineer,"CI/CD, Kubernetes, Google Cloud Platform, Prometheus, Git, Scrum",7.3
+Synapse Corp,Frontend Developer,"SASS, Webpack, TypeScript, Redux, CSS, React, Vue.js",7.9
+CodeCrafters,UI/UX Designer,"Agile, Sketch, API Development, User Research, JIRA, Adobe XD, Figma",7.4
+BinaryBridge,UI/UX Designer,"JIRA, Adobe XD, User Research, Git, Agile, Scrum",7.6
+Insight Data,Data Scientist,"SQL, Agile, API Development, Python, Statistics",8.1
+Omega Solutions,Data Scientist,"Git, R, JIRA, Statistics, Machine Learning",8
+Orion Enterprises,DevOps Engineer,"Agile, CI/CD, Azure, Google Cloud Platform, Docker, Prometheus, Kubernetes",7.9
+P pinnacle Corp,Data Analyst,"Git, Python, Power BI, Agile, Data Visualization",7.6
+LogicLoop,Software Engineer,"Agile, Python, Data Structures, Kubernetes",7
+WebWeavers,Backend Developer,"PostgreSQL, GraphQL, MongoDB, Java, Git",8.1
+QuantumLeap,DevOps Engineer,"API Development, Ansible, Kubernetes, Prometheus",8.7
+AeroVerse,Security Analyst,"Penetration Testing, JIRA, Cryptography, Git, Agile, Scrum, Ethical Hacking",8.9
+Stellar Solutions,UI/UX Designer,"Agile, Git, JIRA, Adobe XD",8.5
+DigitalFrontier,Data Analyst,"API Development, Tableau, SQL, JIRA, Statistics",8.7
+Predictive Analytics,Data Analyst,"Python, Statistics, Agile, SQL, Power BI, Tableau, Git",8.3
+DigitalFrontier,Cloud Architect,"System Design, AWS, Scrum, Git",8.8
+Visionary AI,DevOps Engineer,"Git, CI/CD, API Development, Kubernetes, Prometheus",7.5
+Vertex Dynamics,Security Analyst,"Scrum, Penetration Testing, Git, Ethical Hacking, Cybersecurity",7.3
+LogicLoop,Frontend Developer,"JavaScript, Git, HTML, Angular, React",8.4
+NetSphere,Backend Developer,"MongoDB, Python, Node.js, REST APIs, SQL",7
+Synapse Corp,UI/UX Designer,"Git, JIRA, UI/UX Design, Sketch, API Development",8.9
+EchoSphere,Data Scientist,"Git, PyTorch, Agile, Scrum, Deep Learning, Data Visualization, NumPy, Python",8
+Momentum Labs,Cloud Architect,"Agile, API Development, Azure, Google Cloud Platform, Networking",7.1
+PixelPerfect,DevOps Engineer,"Scrum, Terraform, Prometheus, API Development, Kubernetes, JIRA, CI/CD, Jenkins",7.7
+P pinnacle Corp,Frontend Developer,"JIRA, CSS, Scrum, Angular, Redux",8.1
+Vertex Dynamics,DevOps Engineer,"Terraform, Scrum, JIRA, Azure, Agile, Docker, Prometheus, Google Cloud Platform",7.8
+Apex Innovations,Data Scientist,"Git, SQL, Scikit-learn, API Development, Machine Learning, PyTorch, Agile, Scrum",8
+Keystone Digital,Software Engineer,"C++, Data Structures, Kubernetes, Go, Git, Algorithms, Python",8.1
+Synergy Systems,Backend Developer,"C#, PostgreSQL, Kubernetes, Node.js, API Development, MongoDB",8.9
+BioSynth,Machine Learning Engineer,"JIRA, Scikit-learn, Agile, TensorFlow",8.2
+QuantumLeap,Data Scientist,"PyTorch, JIRA, Agile, NumPy, API Development",8.1
+BlueShift,UI/UX Designer,"Scrum, Adobe XD, Agile, JIRA",7.4
+BinaryBridge,Software Engineer,"Data Structures, Java, Git, Docker, C++, Go, Agile",7.4
+Stellar Solutions,Data Scientist,"Agile, Scrum, SQL, Statistics, PyTorch",8.1
+InfraCloud,UI/UX Designer,"Git, Figma, JIRA, Scrum, API Development, Sketch, Agile",7.7
+EchoSphere,Security Analyst,"Git, Agile, JIRA, Cybersecurity, API Development, Scrum, Penetration Testing",9
+P pinnacle Corp,Mobile App Developer,"Flutter, Objective-C, Android SDK, Kotlin",7.2
+Orion Enterprises,Software Engineer,"API Development, Python, Docker, JIRA, Scrum, Kubernetes, System Design, C++",8.8
+SkyBridge,Full-Stack Developer,"SQL, API Development, Agile, CSS, Scrum, Git, HTML, GraphQL",8
+Zenith Tech,Mobile App Developer,"Flutter, Scrum, React Native, Kotlin, Objective-C, Git, Swift, JIRA",7.2
+Momentum Labs,Cloud Architect,"Terraform, Agile, Security, Scrum, Git, Azure",8.8
+BioLogics,Software Engineer,"Git, Kubernetes, System Design, Docker, Algorithms, Python, API Development, Java",8.2
+Quantum Solutions,DevOps Engineer,"Kubernetes, Terraform, Prometheus, Scrum",7.4
+NeuralNet Systems,Data Scientist,"SQL, NumPy, R, Scikit-learn, Pandas, Statistics, Data Visualization",8.3
+RedShift,Machine Learning Engineer,"Python, Scrum, NumPy, NLP, JIRA, Keras, API Development",7.7
+NextGen AI,Security Analyst,"Cybersecurity, Git, Penetration Testing, Network Security, API Development",7.6
+Predictive Analytics,DevOps Engineer,"Kubernetes, Docker, Git, AWS, Jenkins, Scrum, Prometheus, Google Cloud Platform",7.7
+TerraForm Inc.,Full-Stack Developer,"JavaScript, REST APIs, Node.js, API Development, React, GraphQL, JIRA",7.2
+NanoWare,UI/UX Designer,"Figma, Git, API Development, Scrum, Sketch, Agile, Wireframing",8.8
+Insight Data,Data Analyst,"JIRA, Pandas, Scrum, Git, Statistics, Agile, API Development",8.7
+EchoSphere,DevOps Engineer,"Prometheus, Docker, Agile, Google Cloud Platform, JIRA",8.8
+NovaPulse,Mobile App Developer,"Agile, API Development, Kotlin, Git, Swift",7.6
+Keystone Digital,Mobile App Developer,"Scrum, Android SDK, Kotlin, Agile, Objective-C",7.6
+Orion Enterprises,Cloud Architect,"Azure, Terraform, System Design, Kubernetes, Git",8.4
+BlueShift,Security Analyst,"Penetration Testing, API Development, Scrum, Git",8.4
+Momentum Labs,UI/UX Designer,"Figma, Agile, Adobe XD, Wireframing",8.6
+Insight Data,DevOps Engineer,"Git, Jenkins, Terraform, Prometheus, Docker",8
+Cognitive AI,Security Analyst,"Git, Cybersecurity, Cryptography, Ethical Hacking, Network Security, SIEM, Agile, Penetration Testing",7.1
+BinaryBridge,Machine Learning Engineer,"Keras, PyTorch, Python, Scrum",8.4
+DigitalFrontier,Frontend Developer,"JavaScript, Webpack, Scrum, Next.js, SASS, Agile, CSS, API Development",7.7
+Quantum Solutions,Mobile App Developer,"Android SDK, API Development, JIRA, Kotlin, Agile, Objective-C, React Native",8.1
+LogicLoop,Machine Learning Engineer,"Scikit-learn, PyTorch, API Development, NumPy, NLP, Agile",8.1
+Keystone Digital,Machine Learning Engineer,"Keras, Agile, JIRA, PyTorch, NumPy",7.2
+FutureProof,Data Analyst,"Pandas, Power BI, Tableau, Data Visualization, Python, API Development",8.6
+Momentum Labs,Backend Developer,"Agile, Git, Node.js, NoSQL, Ruby",7.9
+BioSynth,Frontend Developer,"Agile, JIRA, Angular, HTML, Next.js, Git, API Development",8.7
+ByteForce,DevOps Engineer,"Azure, Ansible, Kubernetes, Prometheus, Docker, Jenkins, Agile",8.5
+Visionary AI,Software Engineer,"Data Structures, C++, Scrum, JIRA, Agile",7.8
+TerraForm Inc.,Software Engineer,"Kubernetes, Scrum, Docker, Data Structures, C++, Go, Agile, System Design",8.2
+BioLogics,Software Engineer,"Go, Kubernetes, Scrum, System Design, Algorithms, Agile",7.9
+NovaPulse,Backend Developer,"Kubernetes, Scrum, MongoDB, GraphQL, SQL, C#, JIRA, API Development",8.4
+Vertex Dynamics,Security Analyst,"Agile, Cryptography, Network Security, Scrum",7.2
+QuantumLeap,Cloud Architect,"Kubernetes, Terraform, Google Cloud Platform, Security, Agile, AWS, Azure, Networking",7.1
+Synergy Systems,Full-Stack Developer,"JIRA, Git, React, Python, SQL, API Development, Scrum, HTML",8.1
+SkyBridge,DevOps Engineer,"Google Cloud Platform, AWS, Azure, Agile, Ansible, JIRA, Terraform",7
+Vertex Dynamics,UI/UX Designer,"JIRA, Wireframing, User Research, Figma, API Development, UI/UX Design, Agile, Adobe XD",8.7
+WebWeavers,Data Analyst,"Git, Agile, Excel, Power BI, Pandas, Data Visualization, JIRA",8.8
+TerraForm Inc.,Data Analyst,"Data Visualization, Statistics, SQL, Python, Scrum, Tableau, Power BI",7.7
+NetSphere,UI/UX Designer,"API Development, UI/UX Design, Sketch, Scrum, JIRA",7
+NovaPulse,Mobile App Developer,"React Native, Android SDK, Swift, JIRA",8.7
+BioLogics,Data Scientist,"Git, JIRA, Machine Learning, Scrum, Deep Learning, Scikit-learn, Data Visualization",7.2
+LogicLoop,Cloud Architect,"Security, System Design, Networking, Git, Azure, Terraform",8.4
+BlueShift,Data Scientist,"JIRA, PyTorch, Deep Learning, SQL, Statistics",8.5
+NovaPulse,Frontend Developer,"Scrum, Webpack, Vue.js, Agile, JIRA, TypeScript, Angular",7.7
+Predictive Analytics,Backend Developer,"Go, Kubernetes, Git, NoSQL, Python, SQL, Node.js, JIRA",8
+TerraForm Inc.,Backend Developer,"MongoDB, GraphQL, PostgreSQL, Kubernetes, Ruby",7.8
+Omega Solutions,Backend Developer,"JIRA, Java, Node.js, API Development",7.7
+WebWeavers,Cloud Architect,"Scrum, Git, System Design, AWS, Kubernetes, Security, Terraform",8.5
+EchoSphere,Frontend Developer,"Scrum, React, API Development, Agile, Vue.js, Next.js, Redux, Webpack",8.8
+DataSphere,Security Analyst,"API Development, Git, Network Security, Penetration Testing, Cybersecurity",7
+TerraForm Inc.,Data Analyst,"JIRA, Git, Tableau, API Development, Pandas",8.2
+ByteForce,Data Scientist,"Python, NumPy, Machine Learning, Agile, TensorFlow, Data Visualization, SQL",8.4
+Quantum Solutions,Machine Learning Engineer,"JIRA, Agile, Scikit-learn, Pandas, Computer Vision, Scrum",8.7
+SynthCore,Mobile App Developer,"Flutter, iOS SDK, Scrum, Objective-C, JIRA, Android SDK",7.5
+EchoSphere,Machine Learning Engineer,"Keras, JIRA, Scrum, NLP, Computer Vision",7.7
+Omega Solutions,Security Analyst,"Git, Cybersecurity, JIRA, API Development, Ethical Hacking",8.9
+Stellar Solutions,Frontend Developer,"SASS, Webpack, Agile, JavaScript",8.5
+Alpha Systems,Software Engineer,"System Design, Algorithms, Go, C++, Data Structures, JIRA, Scrum",7.5
+NanoWare,Backend Developer,"Git, Node.js, C#, Go, Docker",7.4
+FutureProof,Machine Learning Engineer,"API Development, NLP, NumPy, TensorFlow, Agile, Pandas, Git",9
+CyberGuard,Cloud Architect,"Security, Azure, Terraform, Scrum, JIRA, System Design",8.9
+PixelPerfect,Backend Developer,"MongoDB, JIRA, GraphQL, REST APIs",8.8
+HelioDynamics,Data Scientist,"SQL, Statistics, Scikit-learn, Agile, Deep Learning, R, NumPy",7.3
+NanoWare,Data Scientist,"SQL, Deep Learning, Git, Scrum, API Development, Agile, NumPy, R",8.5
+Infinite Loop,UI/UX Designer,"Sketch, Git, Adobe XD, User Research, Scrum, Wireframing, JIRA, Figma",7.7
+Orion Enterprises,Machine Learning Engineer,"API Development, Agile, Computer Vision, Git, Scikit-learn",8
+Vertex Dynamics,Full-Stack Developer,"Scrum, Node.js, MongoDB, Git, REST APIs, CSS",8
+EchoSphere,Mobile App Developer,"Flutter, iOS SDK, Scrum, React Native, API Development, Git, Swift, Kotlin",7.9
+PixelPerfect,Data Scientist,"Deep Learning, Git, TensorFlow, Agile, NumPy",8.5
+AquaGen,DevOps Engineer,"API Development, Docker, CI/CD, Terraform, Ansible",8
+BlueShift,Full-Stack Developer,"Python, HTML, GraphQL, Scrum, React, Git, Node.js",8.7
+Cognitive AI,Data Scientist,"R, Git, SQL, Machine Learning, Data Visualization",8.4
+WebWeavers,Data Analyst,"Scrum, SQL, Pandas, API Development",7.8
+CloudNine,Frontend Developer,"Webpack, Vue.js, TypeScript, React",8
+ByteForce,Machine Learning Engineer,"Agile, Python, TensorFlow, API Development, Scikit-learn, NLP, Scrum, Git",8.3
+Zenith Tech,Data Scientist,"Deep Learning, R, NumPy, API Development, Data Visualization, Scikit-learn",7.3
+BioLogics,Backend Developer,"Python, Scrum, SQL, C#",8.2
+CodeCrafters,UI/UX Designer,"Figma, Wireframing, UI/UX Design, Agile, API Development",7.5
+Quantum Solutions,DevOps Engineer,"Ansible, CI/CD, Azure, Jenkins",8
+Polaris Tech,Machine Learning Engineer,"Python, PyTorch, API Development, Git, Pandas, NumPy, Scikit-learn, Scrum",8.8
+NovaPulse,Data Scientist,"Agile, Pandas, Git, Statistics, Machine Learning",7.4
+Omega Solutions,Frontend Developer,"Agile, API Development, HTML, Angular, Scrum, Redux, Webpack, Vue.js",7.4
+InfraCloud,Backend Developer,"Go, Node.js, Git, JIRA, SQL, REST APIs",7.7
+NeuralNet Systems,Security Analyst,"Penetration Testing, Git, Ethical Hacking, Cybersecurity, Agile",8.8
+Stellar Solutions,Software Engineer,"API Development, Docker, Go, Java",7.3
+CodeCrafters,Data Analyst,"API Development, Agile, Data Visualization, Excel, Git, Tableau",7.2
+Visionary AI,Security Analyst,"Penetration Testing, SIEM, Cybersecurity, JIRA, Ethical Hacking, API Development, Cryptography, Network Security",7.5
+QuantumLeap,Machine Learning Engineer,"API Development, JIRA, NumPy, Scrum",8.8
+LogicLoop,Data Analyst,"API Development, JIRA, Git, Excel, Data Visualization, Statistics, Python",7.9
+Predictive Analytics,UI/UX Designer,"Agile, User Research, Sketch, UI/UX Design",8.7
+NeuralNet Systems,Backend Developer,"NoSQL, Kubernetes, MongoDB, SQL, Docker, Go, GraphQL, Java",7.7
+NextGen AI,Machine Learning Engineer,"NLP, TensorFlow, Git, API Development, Scrum, Python, Scikit-learn",7
+P pinnacle Corp,Cloud Architect,"JIRA, Azure, Agile, System Design, Security, AWS, Networking",8
+PixelPerfect,Frontend Developer,"React, Vue.js, SASS, Agile",7.4
+EchoSphere,Data Scientist,"API Development, Git, Machine Learning, Statistics",7.2
+AquaGen,Data Analyst,"SQL, Git, Excel, Agile, Statistics",7.4
+Vertex Dynamics,Cloud Architect,"Scrum, Azure, AWS, Security",7.9
+QuantumLeap,Machine Learning Engineer,"NumPy, Keras, PyTorch, Pandas, Agile, API Development, TensorFlow, Git",7.3
+DigitalFrontier,Software Engineer,"API Development, Java, Git, Data Structures, System Design, Agile, JIRA, Go",8
+BioLogics,Cloud Architect,"Scrum, Security, Agile, Terraform",7
+Visionary AI,Frontend Developer,"Scrum, Webpack, JavaScript, Angular, React",7.3
+Keystone Digital,Frontend Developer,"JIRA, Next.js, Git, CSS, Redux, API Development, Vue.js",7.5
+InfraCloud,Security Analyst,"Cryptography, API Development, Agile, Ethical Hacking, Scrum, Cybersecurity, JIRA, Git",7
+CyberGuard,Data Analyst,"Data Visualization, Power BI, SQL, Tableau",7.3
+ByteForce,Frontend Developer,"React, Vue.js, HTML, Git",7.6
+CloudNine,Data Analyst,"JIRA, Python, API Development, Tableau, Scrum, Git, SQL, Agile",7
+Infinite Loop,Full-Stack Developer,"JavaScript, JIRA, Scrum, Git, GraphQL, Agile, CSS",7.4
+Keystone Digital,Full-Stack Developer,"React, Node.js, Git, JIRA, GraphQL, HTML, JavaScript",8
+TerraForm Inc.,Software Engineer,"API Development, Scrum, C++, Git",7.2
+Cognitive AI,Machine Learning Engineer,"Scikit-learn, PyTorch, JIRA, TensorFlow",8.6
+CyberGuard,Data Scientist,"PyTorch, Data Visualization, JIRA, SQL",8.4
+LogicLoop,Software Engineer,"Python, System Design, Agile, C++",9
+FutureProof,UI/UX Designer,"Git, API Development, JIRA, Sketch, User Research, Figma, UI/UX Design",7.8
+SynthCore,Machine Learning Engineer,"TensorFlow, PyTorch, API Development, Git, Keras, NLP, Computer Vision, Agile",8.6
+TerraForm Inc.,Security Analyst,"JIRA, Cybersecurity, API Development, Network Security, Penetration Testing",7.7
+RedShift,Software Engineer,"C++, System Design, Kubernetes, Git, Algorithms, Docker, Agile",7.2
+DigitalFrontier,Data Analyst,"Tableau, JIRA, Scrum, Excel",8
+AquaGen,DevOps Engineer,"Jenkins, Kubernetes, Docker, Git",7.1
+LogicLoop,UI/UX Designer,"Sketch, API Development, Wireframing, Scrum, User Research, Adobe XD",8.5
+P pinnacle Corp,Security Analyst,"Penetration Testing, Network Security, Agile, Git",8.2
+Zenith Tech,DevOps Engineer,"Jenkins, Ansible, AWS, Terraform, Docker, JIRA, Scrum",8.4
+AeroVerse,DevOps Engineer,"Scrum, Terraform, CI/CD, Agile, Azure, Jenkins, Google Cloud Platform, JIRA",7.7
+FusionWorks,Backend Developer,"API Development, PostgreSQL, SQL, MongoDB",8
+Keystone Digital,Full-Stack Developer,"MongoDB, Python, JavaScript, Agile, React, GraphQL, SQL, API Development",8.7
+NetSphere,Backend Developer,"Scrum, PostgreSQL, Git, JIRA",7.8
+Quantum Solutions,Cloud Architect,"Agile, Google Cloud Platform, Terraform, Security, JIRA",8.5
+Vertex Dynamics,UI/UX Designer,"Git, Sketch, JIRA, Agile, Adobe XD",7.9
+Vertex Dynamics,Machine Learning Engineer,"API Development, Scrum, Pandas, Python, NumPy",8.2
+NextGen AI,Frontend Developer,"JIRA, HTML, Webpack, SASS, Scrum, API Development, Next.js, Agile",8.2
+BioLogics,Security Analyst,"Scrum, Penetration Testing, API Development, SIEM, Cybersecurity, Ethical Hacking, Network Security, Git",8.9
+BlueShift,UI/UX Designer,"Adobe XD, Scrum, Wireframing, User Research, Agile, API Development, Sketch",8.1
+HelioDynamics,Mobile App Developer,"JIRA, React Native, Git, Kotlin, Agile, Swift, Android SDK",7.5
+SynthCore,DevOps Engineer,"AWS, Jenkins, API Development, Agile, Azure, Prometheus, Kubernetes, Google Cloud Platform",8.9
+Insight Data,Cloud Architect,"System Design, API Development, Kubernetes, Agile, AWS, Google Cloud Platform, Terraform, Networking",7.3
+Alpha Systems,Cloud Architect,"API Development, Terraform, Git, JIRA, Azure, Agile, AWS, System Design",7.7
+FusionWorks,Data Scientist,"Python, Agile, Git, Deep Learning, Statistics",7.1
+Apex Innovations,Mobile App Developer,"iOS SDK, Git, Agile, Objective-C, Swift, Scrum",7
+ByteForce,Frontend Developer,"CSS, Scrum, Angular, Redux",8.6
+AeroVerse,Machine Learning Engineer,"Computer Vision, NLP, Scrum, Agile, Git, Pandas",8.6
+FutureProof,Data Analyst,"Git, Statistics, Scrum, Pandas, Excel",7.9
+P pinnacle Corp,Backend Developer,"GraphQL, NoSQL, Java, Kubernetes",8.4
+Orion Enterprises,Backend Developer,"Docker, Node.js, GraphQL, Scrum, C#, Git, API Development, MongoDB",8
+AquaGen,UI/UX Designer,"JIRA, API Development, Scrum, Agile, Sketch",8.8
+Visionary AI,Security Analyst,"Scrum, API Development, Cybersecurity, Penetration Testing",7.2
+EchoSphere,DevOps Engineer,"Jenkins, Kubernetes, Agile, Docker, API Development, Ansible, Terraform, Azure",7.8
+Cognitive AI,Security Analyst,"Penetration Testing, Git, API Development, Cryptography, Ethical Hacking, SIEM, Scrum",8.2
+FusionWorks,DevOps Engineer,"Jenkins, Google Cloud Platform, Terraform, Azure",8
+Visionary AI,Data Analyst,"SQL, Git, JIRA, Data Visualization",7.1
+NextGen AI,Security Analyst,"Cryptography, JIRA, Ethical Hacking, Cybersecurity, API Development, Agile, SIEM",7.9
+Visionary AI,Machine Learning Engineer,"JIRA, Git, NumPy, Python, API Development, Computer Vision",8
+NovaPulse,Frontend Developer,"Agile, Git, Scrum, CSS, SASS, API Development, Next.js, React",8.6
+Insight Data,Software Engineer,"Algorithms, JIRA, Git, Go",8.6
+DataSphere,UI/UX Designer,"JIRA, API Development, Figma, User Research, Adobe XD, Scrum, Sketch, Agile",8
+Apex Innovations,Security Analyst,"Agile, Scrum, Git, SIEM",7.8
+Momentum Labs,Full-Stack Developer,"CSS, MongoDB, JavaScript, SQL",8.9
+BinaryBridge,Frontend Developer,"SASS, Angular, JavaScript, HTML, Git, Webpack, API Development, TypeScript",8.5
+P pinnacle Corp,Backend Developer,"SQL, Scrum, Python, REST APIs, Agile, NoSQL",7.4
+Orion Enterprises,Cloud Architect,"System Design, Kubernetes, Scrum, Google Cloud Platform, JIRA",8.3
+Keystone Digital,Backend Developer,"C#, Kubernetes, SQL, MongoDB",7.9
+LogicLoop,Data Scientist,"R, Data Visualization, Git, Scikit-learn, Deep Learning",7.4
+AeroVerse,Frontend Developer,"Git, Angular, CSS, HTML, TypeScript, Redux",7.4
+FutureProof,Software Engineer,"API Development, Algorithms, Agile, Scrum, Java, Data Structures, C++",8
+BioSynth,Full-Stack Developer,"React, CSS, SQL, Node.js, MongoDB",9
+Synapse Corp,DevOps Engineer,"CI/CD, Terraform, Kubernetes, Jenkins, API Development",7.3
+Infinite Loop,Security Analyst,"SIEM, Network Security, API Development, JIRA, Git",8.5
+LogicLoop,Data Scientist,"Pandas, SQL, PyTorch, API Development, Machine Learning, Git, Agile, R",7.7
+Orion Enterprises,DevOps Engineer,"Git, JIRA, Docker, Ansible",8.2
+BinaryBridge,Security Analyst,"API Development, Cybersecurity, JIRA, Ethical Hacking, Cryptography, Penetration Testing",8.7
+BioSynth,Full-Stack Developer,"JIRA, Agile, Git, React",7.1
+Momentum Labs,Cloud Architect,"Security, Git, Azure, Networking, Terraform, System Design, AWS, JIRA",8.5
+RedShift,Security Analyst,"Network Security, JIRA, Ethical Hacking, API Development, Agile",7
+Infinite Loop,Mobile App Developer,"Android SDK, Swift, React Native, Agile, iOS SDK, Git, Kotlin",8.2
+HelioDynamics,DevOps Engineer,"CI/CD, Agile, AWS, Scrum, Prometheus, Ansible, JIRA",7.9
+QuantumLeap,Software Engineer,"Kubernetes, Git, API Development, Docker",8.2
+Insight Data,Mobile App Developer,"Scrum, Android SDK, Git, JIRA, Swift, React Native",9
+Momentum Labs,DevOps Engineer,"Ansible, JIRA, Prometheus, Scrum, Jenkins, Docker, Kubernetes, Terraform",8.2
+Predictive Analytics,Mobile App Developer,"Android SDK, Kotlin, Agile, Flutter",7.4
+CodeCrafters,Data Scientist,"TensorFlow, Agile, Statistics, Scrum, Data Visualization",8.4
+SynthCore,Cloud Architect,"Terraform, System Design, Kubernetes, API Development, AWS, Security, Networking, Scrum",7
+Zenith Tech,Machine Learning Engineer,"Git, JIRA, NumPy, Computer Vision, Python",7.9
+AeroVerse,Cloud Architect,"Scrum, System Design, AWS, Agile, Networking, JIRA, Terraform",7.7
+QuantumLeap,Data Scientist,"TensorFlow, Scikit-learn, Machine Learning, Statistics, Data Visualization, Deep Learning, Scrum",7.4
+RedShift,Frontend Developer,"JavaScript, Next.js, API Development, Scrum, HTML, Webpack, React",8.9
+SkyBridge,Data Scientist,"R, Deep Learning, Data Visualization, Scrum, Statistics, Git, API Development",8
+Insight Data,Cloud Architect,"Kubernetes, System Design, Scrum, Git, API Development",8.2
+BioLogics,Mobile App Developer,"Scrum, Objective-C, Flutter, JIRA, iOS SDK, API Development, Android SDK",8.3
+Omega Solutions,Data Scientist,"Data Visualization, Agile, Deep Learning, TensorFlow, PyTorch, Pandas",7.1
+Apex Innovations,Security Analyst,"JIRA, Git, Cybersecurity, Agile",7.7
+CodeCrafters,Machine Learning Engineer,"JIRA, Python, Agile, Scikit-learn, Scrum, Pandas, API Development",8.2
+CloudNine,Data Analyst,"SQL, Python, Statistics, Git, Data Visualization, API Development, Excel",8
+Stellar Solutions,UI/UX Designer,"User Research, Scrum, Sketch, JIRA, UI/UX Design, Wireframing, Figma",7.8
+NanoWare,Backend Developer,"MongoDB, Docker, API Development, SQL, Ruby, Scrum",7.9
+ByteForce,Data Analyst,"Python, Statistics, Agile, Git, Excel",8.4
+Polaris Tech,Machine Learning Engineer,"Keras, Git, Scikit-learn, PyTorch, Agile",7.4
+CloudNine,Backend Developer,"Agile, MongoDB, Go, Kubernetes, GraphQL, Ruby",8.9
+WebWeavers,UI/UX Designer,"Figma, Wireframing, Scrum, User Research, Sketch, Agile",8.2
+RedShift,Software Engineer,"Data Structures, Docker, Algorithms, Agile, Python, Go",8.6
+InnovateTech,Machine Learning Engineer,"PyTorch, Scikit-learn, Pandas, Git, JIRA, Keras, Scrum, Python",8.5
+TerraForm Inc.,Backend Developer,"REST APIs, Ruby, MongoDB, Docker, Node.js, PostgreSQL",8.9
+Visionary AI,DevOps Engineer,"CI/CD, JIRA, Prometheus, Google Cloud Platform",8.2
+Stellar Solutions,UI/UX Designer,"UI/UX Design, Scrum, Agile, Adobe XD, Sketch, Git",7.7
+Omega Solutions,Machine Learning Engineer,"Scrum, Pandas, Python, Scikit-learn, Agile, Keras, Git",8.3
+QuantumLeap,UI/UX Designer,"Adobe XD, Scrum, Figma, UI/UX Design, Sketch, JIRA, API Development",8.2
+Polaris Tech,Frontend Developer,"Git, JIRA, Webpack, Angular, CSS, Vue.js, API Development",7.3
+Alpha Systems,Full-Stack Developer,"CSS, JavaScript, Node.js, HTML, JIRA",8.9
+Cognitive AI,Full-Stack Developer,"JavaScript, Git, GraphQL, SQL, MongoDB, CSS",7.1
+BioLogics,Data Analyst,"Statistics, Power BI, Data Visualization, Agile",7.2
+BinaryBridge,Data Scientist,"PyTorch, R, JIRA, Scikit-learn, API Development, Agile, Deep Learning",7.2
+EchoSphere,Mobile App Developer,"Android SDK, Objective-C, iOS SDK, Swift, Agile",7.2
+BinaryBridge,Data Analyst,"SQL, API Development, Git, Agile",7.3
+ByteForce,Data Analyst,"SQL, Python, Excel, Data Visualization, Statistics, Tableau, Scrum, JIRA",8.1
+Vertex Dynamics,Full-Stack Developer,"Python, JIRA, Agile, GraphQL, API Development, HTML, MongoDB, REST APIs",8.3
+Stellar Solutions,Full-Stack Developer,"GraphQL, Node.js, API Development, REST APIs, MongoDB, HTML, Agile, Scrum",7.6
+DigitalFrontier,DevOps Engineer,"Kubernetes, Agile, Jenkins, Azure, JIRA",7.2
+Quantum Solutions,Machine Learning Engineer,"Keras, NLP, PyTorch, Computer Vision, Python, API Development, NumPy, Pandas",8.9
+Quantum Solutions,Data Analyst,"Python, Power BI, Agile, API Development, Tableau",7.7
+Orion Enterprises,Backend Developer,"Python, Java, NoSQL, Kubernetes, Go, Docker, JIRA, GraphQL",8.5
+Predictive Analytics,Software Engineer,"Git, C++, Kubernetes, Agile",8.7
+NextGen AI,UI/UX Designer,"API Development, Figma, UI/UX Design, JIRA",8.7
+Predictive Analytics,Backend Developer,"PostgreSQL, Scrum, Node.js, NoSQL, Java, JIRA",7.1
+Omega Solutions,UI/UX Designer,"Git, Scrum, User Research, Agile, UI/UX Design",7.6
+Omega Solutions,UI/UX Designer,"API Development, Scrum, Figma, User Research, Agile, Sketch, Wireframing, UI/UX Design",7.6
+QuantumLeap,Data Analyst,"API Development, Pandas, Power BI, Python",7.7
+NanoWare,Data Analyst,"Scrum, Excel, API Development, Python, Data Visualization",7.7
+NextGen AI,UI/UX Designer,"Agile, Git, Scrum, UI/UX Design",7.2
+Synergy Systems,Mobile App Developer,"API Development, Agile, Android SDK, Swift, iOS SDK, Objective-C",8.5
+SynthCore,Data Scientist,"NumPy, PyTorch, SQL, Scrum",7.5
+Cognitive AI,Software Engineer,"Kubernetes, JIRA, Data Structures, Docker",7.5
+Synapse Corp,Backend Developer,"Java, GraphQL, NoSQL, SQL, Python, Scrum, JIRA, Agile",8.5
+BlueShift,Machine Learning Engineer,"TensorFlow, Computer Vision, Git, Scikit-learn, Python, Agile, PyTorch",7.2
+Stellar Solutions,Mobile App Developer,"Kotlin, API Development, Scrum, Android SDK, JIRA",8.3
+CyberGuard,UI/UX Designer,"Wireframing, User Research, UI/UX Design, Figma, Scrum, Git",7.6

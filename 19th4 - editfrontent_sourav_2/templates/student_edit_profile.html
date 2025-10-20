@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit Profile</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #00aaff;
+            --secondary-color: #aa00ff;
+            --success-color: #00ffaa;
+            --background-start: #12121c;
+            --background-end: #0a0a14;
+            --text-color: #f0f0f0;
+            --glass-bg: rgba(18, 18, 28, 0.75);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --font-family: 'Poppins', sans-serif;
+        }
+
+        @keyframes gradient-animation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes fade-in-up {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        body {
+            font-family: var(--font-family);
+            color: var(--text-color);
+            background: linear-gradient(-45deg, var(--background-start), var(--background-end), var(--primary-color), var(--secondary-color));
+            background-size: 400% 400%;
+            animation: gradient-animation 25s ease infinite;
+        }
+
+        .card {
+            background: var(--glass-bg);
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(15px);
+            animation: fade-in-up 0.8s ease-out;
+        }
+        
+        .form-control, .form-select {
+            background-color: rgba(0,0,0,0.2);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus, .form-select:focus {
+            background-color: rgba(0,0,0,0.3);
+            color: var(--text-color);
+            border-color: var(--primary-color);
+            box-shadow: 0 0 15px var(--primary-color);
+        }
+
+        .btn-primary, .btn-success {
+            border: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover { transform: scale(1.02); box-shadow: 0 0 20px var(--primary-color); }
+        .btn-success:hover { transform: scale(1.02); box-shadow: 0 0 20px var(--success-color); }
+        
+        .list-group-item {
+            background-color: rgba(255,255,255,0.05);
+            border-color: var(--border-color);
+            color: var(--text-color);
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('student_profile') }}"><i class="bi bi-arrow-left"></i> Back to Profile</a>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="card">
+                    <div class="card-header"><h3>Edit Your Profile</h3></div>
+                    <div class="card-body">
+                        <form method="POST" enctype="multipart/form-data">
+                            <div class="mb-3">
+                                <label for="full_name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="full_name" name="full_name" value="{{ student.full_name }}" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" value="{{ student.email }}" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mobile" class="form-label">Mobile Number</label>
+                                <input type="text" class="form-control" id="mobile" name="mobile" value="{{ student.mobile }}" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="cgpa" class="form-label">Current CGPA</label>
+                                <input type="number" step="0.01" class="form-control" id="cgpa" name="cgpa" value="{{ student.cgpa }}" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="skills" class="form-label">Skills (comma-separated)</label>
+                                <input type="text" class="form-control" id="skills" name="skills" value="{{ skills }}" placeholder="e.g., Python, Flask, HTML, CSS">
+                            </div>
+                            <div class="mb-3">
+                                <label for="profile_photo" class="form-label">Update Profile Photo</label>
+                                <input class="form-control" type="file" id="profile_photo" name="profile_photo">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 py-2">Save Changes</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5" style="animation-delay: 0.2s;">
+                <div class="card mb-3">
+                    <div class="card-header"><h4>Add a New Project</h4></div>
+                    <div class="card-body">
+                        <form action="{{ url_for('add_project') }}" method="POST">
+                            <div class="mb-3">
+                                <label for="project_title" class="form-label">Project Title</label>
+                                <input type="text" class="form-control" name="project_title" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="description" class="form-label">Description</label>
+                                <textarea class="form-control" name="description" rows="2"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="github_link" class="form-label">GitHub Link</label>
+                                <input type="url" class="form-control" name="github_link">
+                            </div>
+                            <div class="mb-3">
+                                <label for="site_link" class="form-label">Live Site Link</label>
+                                <input type="url" class="form-control" name="site_link">
+                            </div>
+                             <div class="mb-3">
+                                <label for="youtube_link" class="form-label">YouTube Link</label>
+                                <input type="url" class="form-control" name="youtube_link">
+                            </div>
+                            <button type="submit" class="btn btn-success w-100"><i class="bi bi-plus-circle"></i> Add Project</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header"><h4>Your Projects</h4></div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                        {% for project in student.projects %}
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                {{ project.project_title }}
+                                <a href="{{ url_for('delete_project', project_id=project.id) }}" class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></a>
+                            </li>
+                        {% else %}
+                            <li class="list-group-item text-muted">No projects added yet.</li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

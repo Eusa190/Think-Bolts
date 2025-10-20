@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Applicant: {{ student.full_name }}{% endblock %}
+{% block content %}
+<h3>Applicant Profile</h3>
+<div class="card">
+    <div class="card-header"><h4>{{ student.full_name }}</h4></div>
+    <div class="card-body">
+         <p><strong>College:</strong> {{ student.college }}</p>
+         <p><strong>Email:</strong> {{ student.email }} | <strong>Mobile:</strong> {{ student.mobile }}</p>
+         <p><strong>CGPA:</strong> {{ student.cgpa }}</p>
+         <p>
+            <strong>Skills:</strong>
+             {% for skill in skills %}
+                <span class="badge bg-secondary">{{ skill }}</span>
+             {% endfor %}
+        </p>
+        <hr>
+        <h5>Projects</h5>
+        {% for project in projects %}
+            <h6>{{ project.project_title }}</h6>
+            <p>{{ project.description }}</p>
+            <div class="d-flex gap-2 mb-3">
+               {% if project.github_link %}<a href="{{ project.github_link }}" target="_blank" class="btn btn-sm btn-dark"><i class="bi bi-github"></i> GitHub</a>{% endif %}
+               {% if project.site_link %}<a href="{{ project.site_link }}" target="_blank" class="btn btn-sm btn-info"><i class="bi bi-link-45deg"></i> Live Site</a>{% endif %}
+            </div>
+        {% else %}
+            <p class="text-muted">This student has not added any projects.</p>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

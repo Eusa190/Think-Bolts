@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Applicants for {{ job.job_role }}{% endblock %}
+{% block content %}
+<a href="{{ url_for('company_profile') }}" class="btn btn-secondary mb-3"><i class="bi bi-arrow-left"></i> Back to Dashboard</a>
+<h3>Applicants for: {{ job.job_role }}</h3>
+<div class="card">
+    <div class="card-body">
+        <ul class="list-group">
+        {% for application in job.applications %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <strong>{{ application.student.full_name }}</strong> from {{ application.student.college }}
+                </div>
+                <a href="{{ url_for('view_applicant', student_id=application.student.id) }}" class="btn btn-sm btn-info">View Profile</a>
+            </li>
+        {% else %}
+            <li class="list-group-item">No applications for this job yet.</li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

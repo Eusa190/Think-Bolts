@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block title %}All Opportunities{% endblock %}
+{% block content %}
+<h2 class="mb-4">{{ page_title }}</h2>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="GET" action="{{ url_for('all_internship_opportunity') }}">
+            <div class="row align-items-end">
+                <div class="col-md-10">
+                    <label for="location" class="form-label">Select a City to View Jobs</label>
+                    <select class="form-select" id="location" name="location" required>
+                        <option value="">Choose...</option>
+                        {% for city in cities %}
+                            <option value="{{ city }}" {% if city == selected_location %}selected{% endif %}>{{ city }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">Filter</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row">
+    {% if selected_location %}
+        {% for job in jobs %}
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div>
+                        <h5 class="mb-0">{{ job.job_role }}</h5>
+                        <h6 class="mb-0 text-muted">{{ job.company.company_name }}</h6>
+                    </div>
+                    <span class="badge bg-secondary align-self-center">{{ job.location }}</span>
+                </div>
+                <div class="card-body">
+                    <p>{{ job.description }}</p>
+                    <p>
+                        <strong>Skills Required:</strong>
+                        {% for skill in job.required_skills | fromjson %}
+                            <span class="badge bg-info text-dark">{{ skill }}</span>
+                        {% endfor %}
+                    </p>
+                    <p>
+                        <strong>Min CGPA:</strong> {{ job.cgpa_required }} |
+                        <strong>Salary:</strong> ₹{{ "%.0f"|format(job.salary_min | default(0, true)) }} - ₹{{ "%.0f"|format(job.salary_max | default(0, true)) }}
+                    </p>
+                </div>
+                <div class="card-footer text-end">
+                    {% if job.id in applied_job_ids %}
+                        <button class="btn btn-secondary" disabled><i class="bi bi-check-circle"></i> Applied</button>
+                    {% else %}
+                        <a href="{{ url_for('apply_job', job_id=job.id) }}" class="btn btn-primary">Apply Now</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% if not jobs %}
+            <p class="text-center text-muted">No jobs currently available in {{ selected_location }}. Please check another city.</p>
+        {% endif %}
+    {% else %}
+        <p class="text-center text-muted">Please select a city from the dropdown above to see job listings.</p>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}University Dashboard{% endblock %}
+{% block content %}
+<h2>BPUT Placement Analytics</h2>
+<table class="table table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>College Name</th>
+            <th>Total Registered Students</th>
+            <th>Students with Applications</th>
+            <th>Placement Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for stats in college_stats %}
+        <tr>
+            <td>{{ stats.name }}</td>
+            <td>{{ stats.total_students }}</td>
+            <td>{{ stats.placed_students }}</td>
+            <td>
+                {% if stats.total_students > 0 %}
+                    {{ "%.2f"|format((stats.placed_students / stats.total_students) * 100) }}%
+                {% else %}
+                    0.00%
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

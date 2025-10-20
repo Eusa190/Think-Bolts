@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block title %}Post a New Job{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h3>Post a New Job or Internship</h3>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('post_job') }}">
+                    <div class="mb-3">
+                        <label for="job_role" class="form-label">Job Role</label>
+                        <input type="text" class="form-control" id="job_role" name="job_role" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Job Description</label>
+                        <textarea class="form-control" id="description" name="description" rows="4"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="required_skills" class="form-label">Required Skills (comma-separated)</label>
+                        <input type="text" class="form-control" id="required_skills" name="required_skills" placeholder="e.g., Java, SQL, Git, Problem Solving" required>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="cgpa_required" class="form-label">Minimum CGPA Required</label>
+                            <input type="number" step="0.1" class="form-control" id="cgpa_required" name="cgpa_required" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="location" class="form-label">Job Location</label>
+                            <select class="form-select" id="location" name="location" required>
+                                <option selected disabled value="">Choose a city...</option>
+                                {% for city in cities %}
+                                    <option value="{{ city }}">{{ city }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="salary_min" class="form-label">Minimum Salary (per annum)</label>
+                            <input type="number" class="form-control" id="salary_min" name="salary_min" placeholder="e.g., 300000">
+                        </div>
+                        <div class="col">
+                            <label for="salary_max" class="form-label">Maximum Salary (per annum)</label>
+                            <input type="number" class="form-control" id="salary_max" name="salary_max" placeholder="e.g., 500000">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                             <label for="contact_email" class="form-label">Contact Email</label>
+                            <input type="email" class="form-control" id="contact_email" name="contact_email">
+                        </div>
+                        <div class="col">
+                            <label for="contact_mobile" class="form-label">Contact Mobile</label>
+                            <input type="text" class="form-control" id="contact_mobile" name="contact_mobile">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Post Job</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
